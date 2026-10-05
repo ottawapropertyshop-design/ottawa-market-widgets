@@ -1,0 +1,9 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>explainer stage</title></head><body>
+<textarea id="t" style="width:100%;height:95vh;" placeholder="loading..."></textarea>
+<script>
+fetch('explainer-body.html').then(r=>r.text()).then(txt=>{
+  const hub = new URLSearchParams(location.search).get('hub') || '__HUB_PAGE_URL__';
+  document.getElementById('t').value = txt.split('__HUB_PAGE_URL__').join(hub);
+  document.title = 'ready:' + txt.split('__HUB_PAGE_URL__').length;
+});
+</script></body></html>
