@@ -67,7 +67,7 @@
     </div>
     <div class="dynamic-desc" id="dynamic-desc"></div>
   </div>
-  <p class="fine">Assumes eXp Canada: 80/20 to a $16,000 cap. $139/month cloud fee + tax excluded from this quick math. $285/deal for the first 20 post-cap deals then $75/deal. $29 broker review per deal. This is a simplified comparison for illustration only.</p>
+  <p class="fine">Assumes eXp Canada: 80/20 to a $16,000 cap. The $139/month cloud brokerage fee is included in the eXp figures; taxes are excluded from this quick math. $285/deal for the first 20 post-cap deals then $75/deal. $29 broker review per deal. This is a simplified comparison for illustration only.</p>
 </div>
 <script>
 function fmt(n){return '$'+Math.round(n).toLocaleString('en-CA');}
@@ -98,7 +98,7 @@ function calculate(){
   document.getElementById('r-current').textContent=fmt(currentNet);
   document.getElementById('r-exp').textContent=fmt(expNet);
   var diffEl=document.getElementById('r-diff');
-  diffEl.textContent=(diff>=0?'+':'-')+fmt(Math.abs(diff)).slice(1);
+  diffEl.textContent=(diff>=0?'+':'−')+fmt(Math.abs(diff));
   document.getElementById('r-diff-cap').textContent=diff>=0?'more in your pocket per year with eXp':'less per year with eXp — your current deal may be competitive';
   var dealsTxt=deals===1?'1 deal':deals+' deals';
   var desc='Agent earns '+fmt(gci)+' GCI on '+dealsTxt+'. '+
