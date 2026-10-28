@@ -28,6 +28,10 @@ input[type=range]{width:100%;accent-color:#c9a227;margin-top:10px;}
 .row.neg .amt{color:#c9a227;}
 .hstsub .nm{padding-left:16px;font-size:14px;color:#d8d8de;}
 .hstsub .amt{font-size:15px;font-weight:400;}
+.hstpanel{margin-top:22px;border-top:2px solid #c9a227;background:#101014;padding:16px 18px 8px;}
+.hstpanel .hstk{color:#c9a227;font-weight:700;letter-spacing:1px;font-size:14px;}
+.hstpanel .hstline{color:#d8d8de;font-size:13px;line-height:1.55;margin-top:6px;}
+.hstpanel .rows{margin-top:10px;}
 .total{display:flex;justify-content:space-between;align-items:baseline;gap:14px;padding:14px 0 4px;border-top:2px solid #c9a227;margin-top:2px;}
 .total .nm{font-size:16px;font-weight:700;letter-spacing:.4px;}
 .total .nm small{display:block;color:#9696a0;font-size:12px;font-weight:400;margin-top:3px;}
@@ -70,13 +74,20 @@ input[type=range]{width:100%;accent-color:#c9a227;margin-top:10px;}
   <div class="row"><div class="nm">Title insurance premium (one-time)<small>Typical figure; most owner policies land in the $250–$500 range.</small></div><div class="amt">$400</div></div>
   <div class="row"><div class="nm">Registration fees<small>2 documents × $85 — the transfer and the mortgage charge, registered electronically.</small></div><div class="amt">$170</div></div>
   <div class="row"><div class="nm">Appraisal<small>Typical figure; most appraisals land in the $300–$600 range.</small></div><div class="amt">$350</div></div>
-  <div class="row" id="rHst" style="display:none"><div class="nm">HST on the new home — 13%<small>5% federal + 8% provincial. Charged on new and substantially renovated homes only; resale homes are exempt.</small></div><div class="amt" id="oHstGross">$0</div></div>
-  <div class="row neg hstsub" id="rFed" style="display:none"><div class="nm">Less: federal new housing rebate<small>36% of the GST, up to $6,300 — full to $350,000, phased out by $450,000.</small></div><div class="amt" id="oFed">−$0</div></div>
-  <div class="row neg hstsub" id="rOn" style="display:none"><div class="nm">Less: Ontario new housing rebate<small>75% of the provincial part, up to $24,000, at any price.</small></div><div class="amt" id="oOn">−$0</div></div>
-  <div class="row" id="rHstNet" style="display:none"><div class="nm"><strong>Net HST owing on the new home</strong><small>Standard rebates for a primary residence. First-time buyer enhanced rebates are much larger — see the note below.</small></div><div class="amt" id="oHstNet">$0</div></div>
 </div>
 
 <div class="total"><div class="nm">TOTAL ESTIMATED CLOSING COSTS<small id="oPct"></small></div><div class="amt" id="oTotal">$0</div></div>
+
+<div class="hstpanel" id="hstPanel" style="display:none">
+  <div class="hstk">HST ON A NEW HOME — SHOWN SEPARATELY</div>
+  <div class="hstline">HST is a tax on the home itself, paid to the builder on closing — it is not a closing cost, so it is not in the total above.</div>
+  <div class="rows">
+  <div class="row"><div class="nm">HST on the new home — 13%<small>5% federal + 8% provincial. Charged on new and substantially renovated homes only; resale homes are exempt.</small></div><div class="amt" id="oHstGross">$0</div></div>
+  <div class="row neg hstsub"><div class="nm">Less: federal new housing rebate<small>36% of the GST, up to $6,300 — full to $350,000, phased out by $450,000.</small></div><div class="amt" id="oFed">−$0</div></div>
+  <div class="row neg hstsub"><div class="nm">Less: Ontario new housing rebate<small>75% of the provincial part, up to $24,000, at any price.</small></div><div class="amt" id="oOn">−$0</div></div>
+  <div class="row"><div class="nm"><strong>Net HST owing on the new home</strong><small>Standard rebates for a primary residence. First-time buyer enhanced rebates are much larger — see the note below.</small></div><div class="amt" id="oHstNet">$0</div></div>
+  </div>
+</div>
 
 <div class="notes">
 Also budget for: a status certificate if you are buying a condo — $100, capped by regulation — and your first home-insurance premium, which is paid to your insurer on its own schedule.<br>
@@ -121,7 +132,9 @@ function compute(price, downPct, fthb, newBuild){
   var fed = newBuild ? fedRebate(price) : 0;
   var onr = newBuild ? onRebate(price) : 0;
   var hstNet = hstGross-fed-onr;
-  var total = tax-refund+pst+fixed+hstNet;
+  /* HST on a new home is a tax on the home itself (paid to the builder), NOT a
+     closing cost — it is shown separately and NEVER enters the total. */
+  var total = tax-refund+pst+fixed;
   return {ltt:tax, refund:refund, mortgage:mortgage, rate:rate, premium:premium, pst:pst,
           hstGross:hstGross, fed:fed, on:onr, hstNet:hstNet, total:total,
           pct: price>0 ? total/price*100 : 0};
@@ -163,7 +176,7 @@ if (typeof document !== "undefined"){
       document.getElementById("premNote").textContent="Premium "+(r.rate*100).toFixed(2)+"% of the "+fmt(r.mortgage)+" mortgage — added to the mortgage, not cash at closing, so it is not in the total.";
       document.getElementById("oPst").textContent=fmt(r.pst);
     }
-    show("rHst", nb===1); show("rFed", nb===1); show("rOn", nb===1); show("rHstNet", nb===1);
+    document.getElementById("hstPanel").style.display = nb===1 ? "block" : "none";
     if(nb===1){
       document.getElementById("oHstGross").textContent=fmt(r.hstGross);
       document.getElementById("oFed").textContent="−"+fmt(r.fed);
