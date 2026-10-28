@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Closing Cost Calculator — Ottawa, Ontario | Selling Ottawa Real Estate</title>
+<style>
+*{box-sizing:border-box;}
+body{margin:0;background:#0a0a0d;font-family:Arial,Helvetica,sans-serif;color:#ffffff;}
+.panel{background:#0a0a0d;border-top:2px solid #c9a227;padding:22px 26px 20px;max-width:920px;margin:0 auto;}
+.kicker{color:#c9a227;font-weight:700;letter-spacing:1px;font-size:15px;}
+.sub{color:#9696a0;font-size:13px;margin-top:4px;line-height:1.5;}
+.grid{display:flex;flex-wrap:wrap;gap:16px 22px;margin:18px 0 4px;}
+.field{flex:1 1 240px;min-width:220px;}
+label{display:block;color:#c9a227;font-size:12px;font-weight:700;letter-spacing:1px;margin-bottom:7px;}
+.money{display:flex;align-items:center;gap:6px;background:#15151a;border:1px solid #3c3c46;padding:8px 10px;}
+.money span{color:#9696a0;font-size:18px;}
+input[type=number]{background:transparent;border:0;color:#fff;font-size:20px;font-weight:700;width:100%;outline:none;-moz-appearance:textfield;appearance:textfield;}
+input[type=number]::-webkit-outer-spin-button,input[type=number]::-webkit-inner-spin-button{-webkit-appearance:none;margin:0;}
+input[type=range]{width:100%;accent-color:#c9a227;margin-top:10px;}
+.help{color:#9696a0;font-size:12px;margin-top:6px;}
+.seg{display:flex;gap:8px;}
+.seg button{flex:1;background:#15151a;border:1px solid #3c3c46;color:#ffffff;font-size:15px;font-weight:700;padding:10px 0;cursor:pointer;}
+.seg button.on{background:#c9a227;border-color:#c9a227;color:#0a0a0d;}
+.rows{margin-top:16px;border-top:1px solid #282830;}
+.row{display:flex;justify-content:space-between;align-items:baseline;gap:14px;padding:9px 0;border-bottom:1px solid #282830;}
+.row .nm{font-size:15px;line-height:1.45;}
+.row .nm small{display:block;color:#9696a0;font-size:12px;margin-top:2px;line-height:1.45;}
+.row .amt{font-size:17px;font-weight:700;white-space:nowrap;}
+.row.neg .amt{color:#c9a227;}
+.hstsub .nm{padding-left:16px;font-size:14px;color:#d8d8de;}
+.hstsub .amt{font-size:15px;font-weight:400;}
+.total{display:flex;justify-content:space-between;align-items:baseline;gap:14px;padding:14px 0 4px;border-top:2px solid #c9a227;margin-top:2px;}
+.total .nm{font-size:16px;font-weight:700;letter-spacing:.4px;}
+.total .nm small{display:block;color:#9696a0;font-size:12px;font-weight:400;margin-top:3px;}
+.total .amt{font-size:30px;font-weight:800;color:#c9a227;white-space:nowrap;}
+.notes{color:#9696a0;font-size:12.5px;line-height:1.6;margin-top:14px;}
+.notes a{color:#c9a227;}
+</style></head><body>
+<div class="panel">
+<div class="kicker">CLOSING COST CALCULATOR &middot; OTTAWA, ONTARIO</div>
+<div class="sub">Type your own purchase price — every figure below updates as you type. Estimates only, built on the rates in the guide.</div>
+
+<div class="grid">
+  <div class="field">
+    <label for="price">PURCHASE PRICE</label>
+    <div class="money"><span>$</span><input type="number" id="price" value="700000" min="0" step="1000" inputmode="numeric"></div>
+    <input type="range" id="priceR" min="150000" max="2500000" step="5000" value="700000">
+  </div>
+  <div class="field">
+    <label for="down">DOWN PAYMENT</label>
+    <div class="money"><input type="number" id="down" value="20" min="5" max="90" step="1" inputmode="numeric"><span>%</span></div>
+    <input type="range" id="downR" min="5" max="50" step="1" value="20">
+    <div class="help" id="mortHelp"></div>
+  </div>
+  <div class="field">
+    <label>FIRST-TIME HOME BUYER?</label>
+    <div class="seg" id="fthbSeg"><button type="button" data-v="0" class="on">No</button><button type="button" data-v="1">Yes</button></div>
+  </div>
+  <div class="field">
+    <label>NEW BUILD (HST APPLIES)?</label>
+    <div class="seg" id="nbSeg"><button type="button" data-v="0" class="on">No — resale</button><button type="button" data-v="1">Yes — new build</button></div>
+  </div>
+</div>
+
+<div class="rows">
+  <div class="row"><div class="nm">Ontario land transfer tax<small>Graduated brackets: 0.5% / 1% / 1.5% / 2% / 2.5% — collected by the Province, through your lawyer, at registration.</small></div><div class="amt" id="oLtt">$0</div></div>
+  <div class="row neg" id="rFthb" style="display:none"><div class="nm">First-time buyer land transfer tax refund<small>Up to $4,000, applied against the tax at closing, through your lawyer.</small></div><div class="amt" id="oFthb">−$0</div></div>
+  <div class="row" id="rPrem" style="display:none"><div class="nm">Mortgage default insurance premium<small id="premNote">Added to the mortgage — not cash at closing, so it is not in the total.</small></div><div class="amt" id="oPrem">$0</div></div>
+  <div class="row" id="rPst" style="display:none"><div class="nm">Ontario sales tax (PST) on the premium — 8%<small>Cannot be added to the mortgage. Due in cash at closing — the classic closing-day surprise.</small></div><div class="amt" id="oPst">$0</div></div>
+  <div class="row"><div class="nm">Legal fees + disbursements<small>Typical all-in figure; most Ottawa purchases land in the $1,500–$3,000 range.</small></div><div class="amt">$2,000</div></div>
+  <div class="row"><div class="nm">Title insurance premium (one-time)<small>Typical figure; most owner policies land in the $250–$500 range.</small></div><div class="amt">$400</div></div>
+  <div class="row"><div class="nm">Registration fees<small>2 documents × $85 — the transfer and the mortgage charge, registered electronically.</small></div><div class="amt">$170</div></div>
+  <div class="row"><div class="nm">Appraisal<small>Typical figure; most appraisals land in the $300–$600 range.</small></div><div class="amt">$350</div></div>
+  <div class="row" id="rHst" style="display:none"><div class="nm">HST on the new home — 13%<small>5% federal + 8% provincial. Charged on new and substantially renovated homes only; resale homes are exempt.</small></div><div class="amt" id="oHstGross">$0</div></div>
+  <div class="row neg hstsub" id="rFed" style="display:none"><div class="nm">Less: federal new housing rebate<small>36% of the GST, up to $6,300 — full to $350,000, phased out by $450,000.</small></div><div class="amt" id="oFed">−$0</div></div>
+  <div class="row neg hstsub" id="rOn" style="display:none"><div class="nm">Less: Ontario new housing rebate<small>75% of the provincial part, up to $24,000, at any price.</small></div><div class="amt" id="oOn">−$0</div></div>
+  <div class="row" id="rHstNet" style="display:none"><div class="nm"><strong>Net HST owing on the new home</strong><small>Standard rebates for a primary residence. First-time buyer enhanced rebates are much larger — see the note below.</small></div><div class="amt" id="oHstNet">$0</div></div>
+</div>
+
+<div class="total"><div class="nm">TOTAL ESTIMATED CLOSING COSTS<small id="oPct"></small></div><div class="amt" id="oTotal">$0</div></div>
+
+<div class="notes">
+Also budget for: a status certificate if you are buying a condo — $100, capped by regulation — and your first home-insurance premium, which is paid to your insurer on its own schedule.<br>
+Estimates only — not legal or tax advice, and your lawyer's statement of adjustments is the final word. <strong style="color:#d8d8de;">Ottawa has no municipal land transfer tax</strong> — Toronto is the only Ontario city that charges one. Buying new construction? First-time buyer GST/HST relief (up to $50,000 federal) and Ontario's enhanced rebates (agreements to March 31, 2027) can cut the HST far below the standard rebates shown here — the full picture is in <a href="https://www.sellingottawa.realestate/blog/Buying+New+Construction+in+Ottawa+and+the+One+Mistake+You+Cannot+Reverse" target="_blank" rel="noopener">Buying New Construction in Ottawa and the One Mistake You Cannot Reverse</a>. Rates checked October 2026.
+</div>
+</div>
+
+<script>
+"use strict";
+/* ---- pure math (unit-tested headlessly in node at build) ---- */
+function ltt(p){
+  if(!(p>0)) return 0;
+  var b=[[55000,0.005],[250000,0.01],[400000,0.015],[2000000,0.02],[Infinity,0.025]], tax=0, prev=0;
+  for(var i=0;i<b.length;i++){ if(p>prev){ tax += (Math.min(p,b[i][0])-prev)*b[i][1]; prev=b[i][0]; } }
+  return tax;
+}
+function premiumRate(downPct){ /* CMHC schedule as printed in the guide */
+  if(downPct>=20) return 0;
+  if(downPct>=15) return 0.028;
+  if(downPct>=10) return 0.031;
+  return 0.04;
+}
+function fedRebate(p){ /* standard GST/HST new housing rebate, federal part */
+  if(!(p>0)) return 0;
+  if(p>=450000) return 0;
+  if(p<=350000) return Math.min(0.36*0.05*p, 6300);
+  return 6300*(450000-p)/100000;
+}
+function onRebate(p){ /* standard Ontario new housing rebate: 75% of the 8% part, cap $24,000, no price phase-out */
+  if(!(p>0)) return 0;
+  return Math.min(0.75*0.08*p, 24000);
+}
+function compute(price, downPct, fthb, newBuild){
+  var tax = ltt(price);
+  var refund = fthb ? Math.min(4000, tax) : 0;
+  var mortgage = price*(1-downPct/100);
+  var rate = premiumRate(downPct);
+  var premium = rate>0 ? mortgage*rate : 0;
+  var pst = premium*0.08;
+  var fixed = 2000+400+170+350; /* typical legal, title insurance, registration, appraisal — the guide's worked-example figures */
+  var hstGross = newBuild ? price*0.13 : 0;
+  var fed = newBuild ? fedRebate(price) : 0;
+  var onr = newBuild ? onRebate(price) : 0;
+  var hstNet = hstGross-fed-onr;
+  var total = tax-refund+pst+fixed+hstNet;
+  return {ltt:tax, refund:refund, mortgage:mortgage, rate:rate, premium:premium, pst:pst,
+          hstGross:hstGross, fed:fed, on:onr, hstNet:hstNet, total:total,
+          pct: price>0 ? total/price*100 : 0};
+}
+function fmt(n){
+  var r = Math.round(n*100)/100;
+  var s = Math.abs(r).toLocaleString("en-CA",{minimumFractionDigits:(r%1===0?0:2), maximumFractionDigits:2});
+  return "$"+s;
+}
+/* ---- DOM wiring (browser only) ---- */
+if (typeof document !== "undefined"){
+  var priceEl=document.getElementById("price"), priceR=document.getElementById("priceR"),
+      downEl=document.getElementById("down"), downR=document.getElementById("downR"),
+      fthb=0, nb=0;
+  function seg(id, fn){
+    var s=document.getElementById(id);
+    s.addEventListener("click", function(e){
+      if(e.target.tagName!=="BUTTON") return;
+      var bs=s.querySelectorAll("button");
+      for(var i=0;i<bs.length;i++) bs[i].classList.remove("on");
+      e.target.classList.add("on"); fn(parseInt(e.target.getAttribute("data-v"),10)); render();
+    });
+  }
+  seg("fthbSeg", function(v){ fthb=v; });
+  seg("nbSeg", function(v){ nb=v; });
+  function num(el, dflt){ var v=parseFloat(el.value); return isNaN(v)?dflt:v; }
+  function show(id, on){ document.getElementById(id).style.display = on?"flex":"none"; }
+  function render(){
+    var price=Math.max(0, num(priceEl,0));
+    var down=Math.min(90, Math.max(5, num(downEl,20)));
+    var r=compute(price, down, fthb===1, nb===1);
+    document.getElementById("oLtt").textContent=fmt(r.ltt);
+    show("rFthb", fthb===1);
+    document.getElementById("oFthb").textContent="−"+fmt(r.refund);
+    var ins = r.rate>0;
+    show("rPrem", ins); show("rPst", ins);
+    if(ins){
+      document.getElementById("oPrem").textContent=fmt(r.premium);
+      document.getElementById("premNote").textContent="Premium "+(r.rate*100).toFixed(2)+"% of the "+fmt(r.mortgage)+" mortgage — added to the mortgage, not cash at closing, so it is not in the total.";
+      document.getElementById("oPst").textContent=fmt(r.pst);
+    }
+    show("rHst", nb===1); show("rFed", nb===1); show("rOn", nb===1); show("rHstNet", nb===1);
+    if(nb===1){
+      document.getElementById("oHstGross").textContent=fmt(r.hstGross);
+      document.getElementById("oFed").textContent="−"+fmt(r.fed);
+      document.getElementById("oOn").textContent="−"+fmt(r.on);
+      document.getElementById("oHstNet").textContent=fmt(r.hstNet);
+    }
+    document.getElementById("oTotal").textContent=fmt(r.total);
+    document.getElementById("oPct").textContent="About "+r.pct.toFixed(1)+"% of the purchase price — the cash side of closing, on top of your down payment.";
+    document.getElementById("mortHelp").textContent="Mortgage amount: "+fmt(r.mortgage)+(r.rate>0?" · default insurance applies under 20% down":" · no default insurance at 20%+ down");
+    if(document.activeElement!==priceR) priceR.value=Math.min(2500000, Math.max(150000, price||150000));
+    if(document.activeElement!==downR) downR.value=Math.min(50, Math.max(5, down));
+  }
+  priceEl.addEventListener("input", function(){ render(); });
+  priceR.addEventListener("input", function(){ priceEl.value=priceR.value; render(); });
+  downEl.addEventListener("input", function(){ render(); });
+  downR.addEventListener("input", function(){ downEl.value=downR.value; render(); });
+  render();
+}
+</script>
+</body></html>
