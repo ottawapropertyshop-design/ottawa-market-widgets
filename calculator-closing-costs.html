@@ -105,6 +105,13 @@ input[type=range]{width:100%;accent-color:#c9a227;margin-top:10px;}
   <div class="hsttotal"><div class="nm">NET HST YOU PAY</div><div class="amt" id="oHstNet">$0</div></div>
   <div class="hsttotal save"><div class="nm">YOU SAVE</div><div class="amt" id="oHstSave">$0</div></div>
   <div class="hstline">One honest caution: when the enhanced rebate was announced, builders raised their base prices. The saving above is measured against today's asking price — part of the rebate is already absorbed in it, so no buyer captures the full 13% compared with prices from before the announcement.</div>
+  <div class="hstline" style="margin-top:12px">If the builder raised the price by this much when the rebate was announced, here is what is left of the saving:</div>
+  <div class="rows">
+    <div class="row"><div class="nm" style="color:#c9a227;font-size:12px;font-weight:700;letter-spacing:1px">IF THE BUILDER RAISED THE PRICE BY…</div><div class="amt" style="color:#c9a227;font-size:12px;letter-spacing:1px">SAVING YOU ACTUALLY KEEP</div></div>
+    <div class="row"><div class="nm"><span id="sP1">$0</span><small id="sH1"></small></div><div class="amt" id="sK1">$0</div></div>
+    <div class="row"><div class="nm"><span id="sP2">$0</span><small id="sH2"></small></div><div class="amt" id="sK2">$0</div></div>
+    <div class="row"><div class="nm"><span id="sP3">$0</span><small id="sH3"></small></div><div class="amt" id="sK3">$0</div></div>
+  </div>
   <div class="hstgrand"><div class="nm">TOTAL COST OF THE HOME<small>The price plus the net HST, payable to the builder.</small></div><div class="amt" id="oHomeTotal">$0</div></div>
   <div class="hstline">This total is net of HST — it assumes the rebate has been assigned to the builder, so the builder receives it from the government on your behalf. That is how builders advertise new-home prices: the sticker is the after-rebate price. If you claim the rebate yourself instead, you pay the full HST at closing and the government refunds you afterwards — the same destination, a different route.</div>
 </div>
@@ -206,6 +213,19 @@ function compute(price, downPct, fthb, newBuild, win){
           hstNet:hstNet, hstSave:hstSave, homeTotal:homeTotal, total:total,
           pct: price>0 ? total/price*100 : 0};
 }
+/* Builder price-increase sensitivity (Tom, Oct 27, 21:10): if the builder raised the
+   price by $15,000 / $20,000 / $25,000 when the enhanced rebate was announced, what is
+   left of the saving? Yardstick = the ORIGINAL price plus the gross HST with NO rebates
+   at all. "Saving you actually keep" = that yardstick minus the total cost of the home
+   at the raised price (same toggles, run back through compute()). */
+function sensitivities(price, downPct, fthb, win){
+  var base = price + price*0.13;
+  return [15000, 20000, 25000].map(function(d){
+    var rp = price + d;
+    var c = compute(rp, downPct, fthb, true, win);
+    return {delta:d, raised:rp, homeTotal:c.homeTotal, keep:base - c.homeTotal};
+  });
+}
 function fmt(n){
   var r = Math.round(n*100)/100;
   var s = Math.abs(r).toLocaleString("en-CA",{minimumFractionDigits:(r%1===0?0:2), maximumFractionDigits:2});
@@ -267,6 +287,12 @@ if (typeof document !== "undefined"){
       document.getElementById("oHstNet").textContent=fmt(r.hstNet);
       document.getElementById("oHstSave").textContent=fmt(r.hstSave);
       document.getElementById("oHomeTotal").textContent=fmt(r.homeTotal);
+      var sens = sensitivities(price, down, fthb===1, win===1);
+      for(var si=0; si<3; si++){
+        document.getElementById("sP"+(si+1)).textContent="+$"+sens[si].delta.toLocaleString("en-CA")+" → "+fmt(sens[si].raised);
+        document.getElementById("sH"+(si+1)).textContent="Total cost of the home at the raised price: "+fmt(sens[si].homeTotal);
+        document.getElementById("sK"+(si+1)).textContent=fmt(sens[si].keep);
+      }
     }
     document.getElementById("oTotal").textContent=fmt(r.total);
     document.getElementById("oPct").textContent="About "+r.pct.toFixed(1)+"% of the purchase price — the cash side of closing, on top of your down payment.";
