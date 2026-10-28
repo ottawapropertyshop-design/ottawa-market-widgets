@@ -54,7 +54,7 @@ input[type=range]{width:100%;accent-color:#c9a227;margin-top:10px;}
 
 <div class="grid">
   <div class="field">
-    <label for="price">PURCHASE PRICE</label>
+    <label for="price" id="priceLabel">PURCHASE PRICE</label>
     <div class="money"><span>$</span><input type="number" id="price" value="700000" min="0" step="1000" inputmode="numeric"></div>
     <input type="range" id="priceR" min="150000" max="2500000" step="5000" value="700000">
   </div>
@@ -93,6 +93,12 @@ input[type=range]{width:100%;accent-color:#c9a227;margin-top:10px;}
   <div class="hstk">HST ON A NEW HOME — SHOWN SEPARATELY</div>
   <div class="hstline">HST is a tax on the home itself, paid to the builder on closing — it is not a closing cost, so it is not in the total above. Here is what you actually pay after the rebates that apply to you, and what they save you.</div>
   <div class="field" style="margin-top:14px">
+    <label>PRICE ENTERED AS</label>
+    <div class="seg" id="modeSeg"><button type="button" data-v="0" class="on">Base price — add HST</button><button type="button" data-v="1">Builder sticker price — HST already in</button></div>
+    <div class="help">Sold from a sales office? Enter the builder's sticker price instead and the panel works backwards — the way one builder's sales office presents the rebate.</div>
+  </div>
+  <div id="baseMode">
+  <div class="field" style="margin-top:14px">
     <label>AGREEMENT SIGNED IN THE ONTARIO ENHANCED REBATE WINDOW?</label>
     <div class="seg" id="winSeg"><button type="button" data-v="0" class="on">No</button><button type="button" data-v="1">Yes — Apr 1, 2026 – Mar 31, 2027</button></div>
     <div class="help">In the window, Ontario's enhanced rebate plus the Ontario affordability payment can return most — or all — of the HST on homes under $1,850,000.</div>
@@ -114,6 +120,26 @@ input[type=range]{width:100%;accent-color:#c9a227;margin-top:10px;}
   </div>
   <div class="hstgrand"><div class="nm">TOTAL COST OF THE HOME<small>The price plus the net HST, payable to the builder.</small></div><div class="amt" id="oHomeTotal">$0</div></div>
   <div class="hstline">This total is net of HST — it assumes the rebate has been assigned to the builder, so the builder receives it from the government on your behalf. That is how builders advertise new-home prices: the sticker is the after-rebate price. If you claim the rebate yourself instead, you pay the full HST at closing and the government refunds you afterwards — the same destination, a different route.</div>
+  </div><!-- /baseMode -->
+  <div id="stickerMode" style="display:none">
+  <div class="hstline" style="margin-top:4px"><strong style="color:#ffffff">How one builder works the rebate — an example.</strong> Some builders advertise a sticker price that already includes the HST, with a $24,000 rebate credit built in. The rest of the rebate is not deducted at the sales office — you pay the sticker, then claim the remainder after closing. Worked backwards, the sticker tells you the real price.</div>
+  <div class="rows">
+    <div class="row"><div class="nm">Builder sticker price<small>The price on the sales-office sheet — the HST is already inside it.</small></div><div class="amt" id="oStSticker">$0</div></div>
+    <div class="row"><div class="nm">True net price<small>The sticker with the HST backed out — what the home itself costs, before tax.</small></div><div class="amt" id="oStNet">$0</div></div>
+    <div class="row"><div class="nm">HST buried in the sticker<small>13% of the true net price — tax you pay without ever seeing it as its own line.</small></div><div class="amt" id="oStHst">$0</div></div>
+    <div class="row neg hstsub"><div class="nm">Rebate already credited in the price<small>Built into the sticker by the builder — this slice is already in the number you were quoted.</small></div><div class="amt" id="oStCredit">−$24,000</div></div>
+    <div class="row neg"><div class="nm">Rebate you claim after closing<small>NOT deducted at the sales office — you pay the full sticker, then file for this and wait for the refund.</small></div><div class="amt" id="oStClaim">$0</div></div>
+  </div>
+  <div class="hstline" style="margin-top:12px">And if the builder raised the sticker when the enhanced rebate was announced, that increase lands on you — here is what it does to your true cost:</div>
+  <div class="rows">
+    <div class="row"><div class="nm" style="color:#c9a227;font-size:12px;font-weight:700;letter-spacing:1px">IF THE BUILDER RAISED THE STICKER BY…</div><div class="amt" style="color:#c9a227;font-size:12px;letter-spacing:1px">EXTRA YOU PAY vs TODAY'S STICKER</div></div>
+    <div class="row"><div class="nm"><span id="kP1">$0</span><small id="kH1"></small></div><div class="amt" id="kK1">$0</div></div>
+    <div class="row"><div class="nm"><span id="kP2">$0</span><small id="kH2"></small></div><div class="amt" id="kK2">$0</div></div>
+    <div class="row"><div class="nm"><span id="kP3">$0</span><small id="kH3"></small></div><div class="amt" id="kK3">$0</div></div>
+  </div>
+  <div class="hstgrand"><div class="nm">TRUE NET COST<small>The sticker minus the rebate you claim after closing — what the home really costs you.</small></div><div class="amt" id="oStCost">$0</div></div>
+  <div class="hstline">The sticker is itself a net-of-HST presentation: the price on the sheet already assumes the $24,000 rebate credit has been applied inside it. What it never assumes is the rest of the rebate — that money comes back only after closing, when you claim it.</div>
+  </div>
 </div>
 
 <div class="notes">
@@ -226,6 +252,32 @@ function sensitivities(price, downPct, fthb, win){
     return {delta:d, raised:rp, homeTotal:c.homeTotal, keep:base - c.homeTotal};
   });
 }
+/* Builder sticker mode (Tom, Oct 27, 21:27): some builders advertise a sticker price
+   that already includes the HST, with a $24,000 rebate credit built into the price.
+   Worked backwards from the sticker S: true net price N = (S + 24,000) / 1.13; the
+   HST buried in the sticker is 13% of N; the $24,000 is already credited in the price;
+   the buyer claims the REST (HST − $24,000, floor 0) after closing — it is not
+   deducted at the sales office. True net cost = S − claim = N.
+   Worked examples verified: S $1,004,900 -> N $910,530.97, HST $118,369.03, claim $94,369.03;
+   S $1,079,000 -> N $976,106.19, HST $126,893.81, claim $102,893.81. */
+function stickerMath(S){
+  if(!(S>0)) return {sticker:0, net:0, hst:0, credited:0, claim:0, trueCost:0};
+  var net = (S+24000)/1.13;
+  var hst = 0.13*net;
+  var claim = Math.max(0, hst-24000);
+  return {sticker:S, net:net, hst:hst, credited:24000, claim:claim, trueCost:S-claim};
+}
+/* Sticker-mode sensitivity: if the builder raised the sticker by $15,000 / $20,000 /
+   $25,000 when the rebate was announced, the extra the buyer pays versus today's
+   sticker is the rise in true net cost — net(S + Δ) − net(S) (the increase itself
+   carries HST, so the extra is Δ / 1.13, not Δ). */
+function stickerSensitivities(S){
+  var base = stickerMath(S);
+  return [15000, 20000, 25000].map(function(d){
+    var rs = stickerMath(S+d);
+    return {delta:d, raised:S+d, trueCost:rs.trueCost, extra:rs.trueCost-base.trueCost};
+  });
+}
 function fmt(n){
   var r = Math.round(n*100)/100;
   var s = Math.abs(r).toLocaleString("en-CA",{minimumFractionDigits:(r%1===0?0:2), maximumFractionDigits:2});
@@ -235,7 +287,7 @@ function fmt(n){
 if (typeof document !== "undefined"){
   var priceEl=document.getElementById("price"), priceR=document.getElementById("priceR"),
       downEl=document.getElementById("down"), downR=document.getElementById("downR"),
-      fthb=0, nb=0, win=0;
+      fthb=0, nb=0, win=0, mode=0;
   function seg(id, fn){
     var s=document.getElementById(id);
     s.addEventListener("click", function(e){
@@ -248,6 +300,7 @@ if (typeof document !== "undefined"){
   seg("fthbSeg", function(v){ fthb=v; });
   seg("nbSeg", function(v){ nb=v; });
   seg("winSeg", function(v){ win=v; });
+  seg("modeSeg", function(v){ mode=v; });
   function num(el, dflt){ var v=parseFloat(el.value); return isNaN(v)?dflt:v; }
   function show(id, on){ document.getElementById(id).style.display = on?"flex":"none"; }
   function render(){
@@ -293,7 +346,25 @@ if (typeof document !== "undefined"){
         document.getElementById("sH"+(si+1)).textContent="Total cost of the home at the raised price: "+fmt(sens[si].homeTotal);
         document.getElementById("sK"+(si+1)).textContent=fmt(sens[si].keep);
       }
+      document.getElementById("baseMode").style.display = mode===1 ? "none" : "block";
+      document.getElementById("stickerMode").style.display = mode===1 ? "block" : "none";
+      if(mode===1){
+        var sm = stickerMath(price);
+        document.getElementById("oStSticker").textContent=fmt(sm.sticker);
+        document.getElementById("oStNet").textContent=fmt(sm.net);
+        document.getElementById("oStHst").textContent=fmt(sm.hst);
+        document.getElementById("oStCredit").textContent="−"+fmt(sm.credited);
+        document.getElementById("oStClaim").textContent=fmt(sm.claim);
+        document.getElementById("oStCost").textContent=fmt(sm.trueCost);
+        var ks = stickerSensitivities(price);
+        for(var ki=0; ki<3; ki++){
+          document.getElementById("kP"+(ki+1)).textContent="+$"+ks[ki].delta.toLocaleString("en-CA")+" → "+fmt(ks[ki].raised)+" sticker";
+          document.getElementById("kH"+(ki+1)).textContent="True net cost at that sticker: "+fmt(ks[ki].trueCost);
+          document.getElementById("kK"+(ki+1)).textContent="+"+fmt(ks[ki].extra);
+        }
+      }
     }
+    document.getElementById("priceLabel").textContent = (nb===1 && mode===1) ? "BUILDER STICKER PRICE (HST INCLUDED)" : "PURCHASE PRICE";
     document.getElementById("oTotal").textContent=fmt(r.total);
     document.getElementById("oPct").textContent="About "+r.pct.toFixed(1)+"% of the purchase price — the cash side of closing, on top of your down payment.";
     document.getElementById("mortHelp").textContent="Mortgage amount: "+fmt(r.mortgage)+(r.rate>0?" · default insurance applies under 20% down":" · no default insurance at 20%+ down");
