@@ -12,7 +12,7 @@
   .wrap{padding:4px;}
   .panel{display:block;background:#0d1b2e;border:2px solid #c9a227;border-radius:12px;padding:22px 18px 16px;text-decoration:none;}
   .pins{display:flex;justify-content:center;gap:10px;flex-wrap:wrap;}
-  .pin{text-align:center;min-width:200px;}
+  .pin{text-align:center;min-width:150px;}
   .pin .price{display:inline-block;background:#D4AF37;color:#111;font-weight:800;font-size:19px;padding:7px 18px;border-radius:999px;}
   .pin .lab{display:block;margin-top:7px;background:#000;color:#fff;font-size:11px;font-weight:700;letter-spacing:1.5px;padding:3px 0;border-radius:4px;}
   .pill{display:block;text-align:center;margin:18px auto 0;background:#D4AF37;color:#111;font-weight:800;font-size:15px;letter-spacing:.4px;padding:11px 10px;border-radius:999px;max-width:340px;}
@@ -28,7 +28,9 @@
   <div class="marketline">Embrun homes for sale: <span class="ml-count">68</span> active freehold listings as of <span class="ml-date">October 30, 2026</span> &mdash; every asking price is live on the map.</div>
   <a class="panel" href="https://www.sellingottawa.realestate/index.php?advanced=1&display=&min=200000&max=100000000&beds=0&baths=0&types%5B%5D=1&types%5B%5D=3&types%5B%5D=31&types%5B%5D=11&types%5B%5D=62&types%5B%5D=10&statuses%5B%5D=0&minfootage=0&maxfootage=30000&minacres=0&maxacres=0&yearbuilt=0&maxyearbuilt=0&walkscore=0&keywords=&polygons%5B%5D=-75.2632484509377%2C45.297374779633294%2C-75.24882889527363%2C45.26800046275408%2C-75.2820625336608%2C45.25147071873169%2C-75.31941605557223%2C45.26925690826028%2C-75.30733109568247%2C45.28877663426576%2C-75.26530838746113%2C45.29921017106757%2C-75.2632484509377%2C45.297374779633294&sortby=listings.listingdate+DESC&rtype=map" target="_top">
     <span class="pins">
-      <span class="pin"><span class="price">68 ACTIVE LISTINGS</span><span class="lab">EMBRUN &middot; FREEHOLD</span></span>
+      <span class="pin"><span class="price">$409,000</span><span class="lab">LOW &middot; EMBRUN FREEHOLD</span></span>
+      <span class="pin"><span class="price">$699,950</span><span class="lab">MEDIAN &middot; EMBRUN FREEHOLD</span></span>
+      <span class="pin"><span class="price">$1,159,999</span><span class="lab">HIGH &middot; EMBRUN FREEHOLD</span></span>
     </span>
     <span class="pill">TAP TO OPEN LIVE MAP &rarr;</span>
     <span class="cap">68 ACTIVE LISTINGS &bull; CLICK TO OPEN LISTINGS &bull; Updated Oct 30, 2026</span>
@@ -36,11 +38,11 @@
   <a class="gold-btn" href="https://www.sellingottawa.realestate/index.php?advanced=1&display=&min=200000&max=100000000&beds=0&baths=0&types%5B%5D=1&types%5B%5D=3&types%5B%5D=31&types%5B%5D=11&types%5B%5D=62&types%5B%5D=10&statuses%5B%5D=0&minfootage=0&maxfootage=30000&minacres=0&maxacres=0&yearbuilt=0&maxyearbuilt=0&walkscore=0&keywords=&polygons%5B%5D=-75.2632484509377%2C45.297374779633294%2C-75.24882889527363%2C45.26800046275408%2C-75.2820625336608%2C45.25147071873169%2C-75.31941605557223%2C45.26925690826028%2C-75.30733109568247%2C45.28877663426576%2C-75.26530838746113%2C45.29921017106757%2C-75.2632484509377%2C45.297374779633294&sortby=listings.listingdate+DESC&rtype=map" target="_top">VIEW LIVE MAP — EMBRUN HOMES</a>
   <div class="meta">Embrun &middot; Russell Township &middot; Freehold &middot; Updated Oct 30, 2026 &middot; Live listings via the Embrun IDX map search (Tom's polygon)</div>
 </div>
-<!-- STAT SWAP (daily pattern): when the live-browser pull of the canonical
-polygon search lands, replace the note paragraph below with the Kars-style
-AVERAGE / MEDIAN / LOWEST / HIGHEST boxes + price-range bar (median marker
-% = (median-low)/(high-low)*100), and swap the panel pins to LOW/MEDIAN/HIGH.
-Counts verified Oct 30, 2026 via the canonical IDX search header: freehold
-68, land 3. Do NOT seed from other portals (different listing universe). -->
+<!-- STAT SWAP (daily pattern): figures below were computed Oct 30, 2026
+from the full listing sets of the canonical polygon searches (freehold 68,
+land 3). On each daily refresh, recompute AVERAGE / MEDIAN / LOWEST /
+HIGHEST from the live pull and swap the strings in the stat boxes, the
+range-bar median marker and the panel pins. Do NOT seed from other portals
+(different listing universe). -->
 </body>
 </html>
