@@ -107,7 +107,6 @@ function calculate(){
     (diff>=0?'a '+fmt(diff)+' annual advantage.':'your current structure keeps '+fmt(Math.abs(diff))+' more.');
   document.getElementById('dynamic-desc').textContent=desc;
   document.getElementById('results').classList.add('show');
-  document.getElementById('results').scrollIntoView({behavior:'smooth',block:'nearest'});
 }
 window.addEventListener('DOMContentLoaded',function(){
   calculate();
