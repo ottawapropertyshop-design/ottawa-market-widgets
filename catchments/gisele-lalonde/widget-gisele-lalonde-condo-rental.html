@@ -1,43 +1,45 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate, max-age=0">
-<meta http-equiv="Pragma" content="no-cache">
-<meta http-equiv="Expires" content="0">
-<title>Gisèle-Lalonde Catchment Condo Rentals — Live Listings Panel</title>
-<style>
-  body{margin:0;font-family:system-ui,-apple-system,'Segoe UI',sans-serif;background:#ffffff;color:#111;}
-  .wrap{padding:4px;}
-  .panel{display:block;background:#0d1b2e;border:2px solid #c9a227;border-radius:12px;padding:22px 18px 16px;text-decoration:none;}
-  .pins{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;}
-  .pin{text-align:center;flex:1;min-width:96px;}
-  .pin .price{display:inline-block;background:#D4AF37;color:#111;font-weight:800;font-size:19px;padding:7px 13px;border-radius:999px;}
-  .pin .lab{display:block;margin-top:7px;background:#000;color:#fff;font-size:11px;font-weight:700;letter-spacing:1.5px;padding:3px 0;border-radius:4px;}
-  .pill{display:block;text-align:center;margin:18px auto 0;background:#D4AF37;color:#111;font-weight:800;font-size:15px;letter-spacing:.4px;padding:11px 10px;border-radius:999px;max-width:340px;}
-  .cap{display:block;text-align:center;color:#d8dee9;font-size:12px;margin-top:12px;letter-spacing:.6px;}
-  .gold-btn{display:block;background:#D4AF37;color:#111;font-weight:800;font-size:16px;text-decoration:none;text-align:center;padding:15px 18px;border-radius:999px;margin:14px 0 0;}
-  .marketline{background:#0d1b2e;border:2px solid #c9a227;border-radius:12px;color:#ffffff;font-size:15px;line-height:1.5;text-align:center;padding:13px 18px;margin:0 0 10px;}
-  .marketline span{color:#D4AF37;font-weight:700;}
-  .meta{text-align:center;font-size:12px;color:#6B7280;margin-top:10px;}
-</style>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Gisèle-Lalonde Catchment Condo Rentals &middot; Live Market Snapshot</title>
+<style>html,body{margin:0;padding:0;background:#0a0a0d;}</style>
 </head>
 <body>
-<!-- READ VEHICLE (Nov 10, 2026): figures placeholder — the final panel is written by the completion step before the kit ships. The panel href is final. -->
-<div class="wrap">
-  <div class="marketline">FIGURES PENDING &mdash; the displayed-set read for this search is outstanding; figures are swapped in before this panel is staged.</div>
-  <a class="panel" href="https://www.sellingottawa.realestate/index.php?advanced=1&display=&min=0&max=50000&beds=0&baths=0&types[]=1&types[]=2&types[]=31&statuses[]=0&minfootage=0&maxfootage=30000&minacres=0&maxacres=0&yearbuilt=0&maxyearbuilt=0&walkscore=0&keywords=Ownership Type=Condominium%2FStrata&sortby=listings.listingdate+DESC&rtype=map&polygons[]=-75.486685,45.424836,-75.495839,45.441666,-75.504276,45.455666,-75.504479,45.455611,-75.504587,45.455590,-75.504913,45.455527,-75.505104,45.455450,-75.506689,45.458131,-75.507079,45.458475,-75.507166,45.458542,-75.507235,45.458596,-75.507707,45.458702,-75.507742,45.458712,-75.507927,45.458740,-75.508827,45.458893,-75.510864,45.459012,-75.510860,45.459044,-75.510860,45.459044,-75.510661,45.460536,-75.509906,45.461350,-75.509417,45.461520,-75.509387,45.461532,-75.509287,45.461570,-75.509284,45.461571,-75.510235,45.463380,-75.513813,45.471185,-75.513725,45.471766,-75.515049,45.474071,-75.515519,45.474903,-75.517814,45.479906,-75.514025,45.481356,-75.509836,45.483002,-75.504359,45.485127,-75.502966,45.485664,-75.502998,45.485710,-75.506199,45.490320,-75.512138,45.497927,-75.513220,45.499312,-75.513246,45.499346,-75.507878,45.501317,-75.507593,45.501422,-75.506293,45.501889,-75.505346,45.502250,-75.503250,45.503022,-75.496553,45.505299,-75.496451,45.505345,-75.495095,45.505954,-75.493919,45.506511,-75.493453,45.506692,-75.492674,45.506994,-75.491189,45.507640,-75.489854,45.508276,-75.485770,45.510217,-75.485528,45.510332,-75.485412,45.510348,-75.485210,45.510422,-75.477937,45.511418,-75.475925,45.511675,-75.475475,45.511738,-75.475200,45.511787,-75.471489,45.512450,-75.468549,45.514033,-75.467639,45.514759,-75.467018,45.515255,-75.465568,45.516026,-75.463836,45.516866,-75.462916,45.517297,-75.461970,45.517752,-75.460748,45.518238,-75.460420,45.518374,-75.460124,45.518486,-75.459729,45.518635,-75.457857,45.519343,-75.455307,45.519840,-75.454713,45.519956,-75.452363,45.520454,-75.451332,45.520672,-75.448207,45.521106,-75.444628,45.521350,-75.440544,45.521215,-75.437627,45.521119,-75.432478,45.521145,-75.432193,45.521134,-75.428842,45.521008,-75.425762,45.520632,-75.425741,45.520629,-75.423353,45.520455,-75.420884,45.520519,-75.418122,45.520999,-75.417389,45.521217,-75.416933,45.521353,-75.416289,45.521545,-75.414942,45.522198,-75.414241,45.522537,-75.414107,45.522592,-75.413451,45.522859,-75.413363,45.522895,-75.410820,45.523485,-75.409210,45.523599,-75.406932,45.523447,-75.405674,45.523363,-75.402487,45.523235,-75.402048,45.523224,-75.389848,45.524663,-75.387980,45.525474,-75.387967,45.525484,-75.386145,45.526861,-75.385299,45.527124,-75.384246,45.527450,-75.380353,45.528281,-75.380000,45.528352,-75.380000,45.410000,-75.478479,45.410000,-75.482557,45.417242" target="_top">
-    <span class="pins">
-      <span class="pin"><span class="price">&mdash;</span><span class="lab">LOW</span></span>
-      <span class="pin"><span class="price">&mdash;</span><span class="lab">MEDIAN</span></span>
-      <span class="pin"><span class="price">&mdash;</span><span class="lab">HIGH</span></span>
-    </span>
-    <span class="pill">TAP TO OPEN LIVE MAP &rarr;</span>
-    <span class="cap">CLICK TO OPEN LISTINGS &bull; Updated Nov 10, 2026</span>
-  </a>
-  <a class="gold-btn" href="https://www.sellingottawa.realestate/index.php?advanced=1&display=&min=0&max=50000&beds=0&baths=0&types[]=1&types[]=2&types[]=31&statuses[]=0&minfootage=0&maxfootage=30000&minacres=0&maxacres=0&yearbuilt=0&maxyearbuilt=0&walkscore=0&keywords=Ownership Type=Condominium%2FStrata&sortby=listings.listingdate+DESC&rtype=map&polygons[]=-75.486685,45.424836,-75.495839,45.441666,-75.504276,45.455666,-75.504479,45.455611,-75.504587,45.455590,-75.504913,45.455527,-75.505104,45.455450,-75.506689,45.458131,-75.507079,45.458475,-75.507166,45.458542,-75.507235,45.458596,-75.507707,45.458702,-75.507742,45.458712,-75.507927,45.458740,-75.508827,45.458893,-75.510864,45.459012,-75.510860,45.459044,-75.510860,45.459044,-75.510661,45.460536,-75.509906,45.461350,-75.509417,45.461520,-75.509387,45.461532,-75.509287,45.461570,-75.509284,45.461571,-75.510235,45.463380,-75.513813,45.471185,-75.513725,45.471766,-75.515049,45.474071,-75.515519,45.474903,-75.517814,45.479906,-75.514025,45.481356,-75.509836,45.483002,-75.504359,45.485127,-75.502966,45.485664,-75.502998,45.485710,-75.506199,45.490320,-75.512138,45.497927,-75.513220,45.499312,-75.513246,45.499346,-75.507878,45.501317,-75.507593,45.501422,-75.506293,45.501889,-75.505346,45.502250,-75.503250,45.503022,-75.496553,45.505299,-75.496451,45.505345,-75.495095,45.505954,-75.493919,45.506511,-75.493453,45.506692,-75.492674,45.506994,-75.491189,45.507640,-75.489854,45.508276,-75.485770,45.510217,-75.485528,45.510332,-75.485412,45.510348,-75.485210,45.510422,-75.477937,45.511418,-75.475925,45.511675,-75.475475,45.511738,-75.475200,45.511787,-75.471489,45.512450,-75.468549,45.514033,-75.467639,45.514759,-75.467018,45.515255,-75.465568,45.516026,-75.463836,45.516866,-75.462916,45.517297,-75.461970,45.517752,-75.460748,45.518238,-75.460420,45.518374,-75.460124,45.518486,-75.459729,45.518635,-75.457857,45.519343,-75.455307,45.519840,-75.454713,45.519956,-75.452363,45.520454,-75.451332,45.520672,-75.448207,45.521106,-75.444628,45.521350,-75.440544,45.521215,-75.437627,45.521119,-75.432478,45.521145,-75.432193,45.521134,-75.428842,45.521008,-75.425762,45.520632,-75.425741,45.520629,-75.423353,45.520455,-75.420884,45.520519,-75.418122,45.520999,-75.417389,45.521217,-75.416933,45.521353,-75.416289,45.521545,-75.414942,45.522198,-75.414241,45.522537,-75.414107,45.522592,-75.413451,45.522859,-75.413363,45.522895,-75.410820,45.523485,-75.409210,45.523599,-75.406932,45.523447,-75.405674,45.523363,-75.402487,45.523235,-75.402048,45.523224,-75.389848,45.524663,-75.387980,45.525474,-75.387967,45.525484,-75.386145,45.526861,-75.385299,45.527124,-75.384246,45.527450,-75.380353,45.528281,-75.380000,45.528352,-75.380000,45.410000,-75.478479,45.410000,-75.482557,45.417242" target="_top">VIEW LIVE MAP — GISÈLE-LALONDE CATCHMENT CONDO RENTALS</a>
-  <div class="meta">Gisèle-Lalonde Secondary School catchment &middot; CEPEO Grades 7 to 12 French-language public attendance sector (Gisèle-Lalonde, GIL) &middot; Condominium rentals &middot; Updated Nov 10, 2026 &middot; Live listings via the catchment IDX map search (Tom's polygon)</div>
+<!-- MARKET-SNAPSHOT-START -->
+<!-- FIGURES PENDING (Nov 10, 2026): the displayed-set read for this search is
+outstanding. This pending widget is a REAL snapshot box in the final
+WIDGET_HEAD construction — figures swap in via
+`python3 build-widgets-panels.py work/figures.json`, which overwrites this
+file wholesale. It carries NO map-panel markup by design. -->
+<div style="background:#0a0a0d;border-top:2px solid #c9a227;padding:22px 26px;margin:0;max-width:100%;box-sizing:border-box;">
+<div style="display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:8px;">
+<span style="color:#c9a227;font-weight:700;letter-spacing:1px;font-size:15px;">GISÈLE-LALONDE CATCHMENT &middot; CONDO RENTALS &mdash; LIVE MARKET SNAPSHOT</span>
+<span style="color:#9696a0;font-size:13px;">Updated November 10, 2026</span>
 </div>
+<div style="background:#0d1b2e;border:1px solid #c9a227;border-radius:8px;color:#ffffff;font-size:14px;line-height:1.5;text-align:center;padding:12px 16px;margin:16px 0 4px;">FIGURES PENDING &mdash; final figures load at the live read before the paste.</div>
+<div style="display:flex;align-items:center;gap:22px;margin:18px 0 6px;flex-wrap:wrap;">
+<span style="font-size:64px;font-weight:800;color:#ffffff;line-height:1;">&mdash;</span>
+<span style="color:#9696a0;font-size:16px;line-height:1.5;">Active condominium rentals<br>inside the Gisèle-Lalonde catchment today</span>
+</div>
+<div style="display:flex;gap:18px;flex-wrap:wrap;margin:14px 0 4px;border-top:1px solid #282830;padding-top:16px;">
+<div style="flex:1;min-width:120px;"><div style="color:#c9a227;font-size:12px;font-weight:700;letter-spacing:1px;">AVERAGE</div><div style="color:#fff;font-size:24px;font-weight:700;">&mdash;</div></div>
+<div style="flex:1;min-width:120px;"><div style="color:#c9a227;font-size:12px;font-weight:700;letter-spacing:1px;">MEDIAN</div><div style="color:#fff;font-size:24px;font-weight:700;">&mdash;</div></div>
+<div style="flex:1;min-width:120px;"><div style="color:#c9a227;font-size:12px;font-weight:700;letter-spacing:1px;">LOWEST</div><div style="color:#fff;font-size:24px;font-weight:700;">&mdash;</div></div>
+<div style="flex:1;min-width:120px;"><div style="color:#c9a227;font-size:12px;font-weight:700;letter-spacing:1px;">HIGHEST</div><div style="color:#fff;font-size:24px;font-weight:700;">&mdash;</div></div>
+</div>
+<div style="margin-top:14px;">
+<div style="color:#9696a0;font-size:13px;margin-bottom:8px;">Price range</div>
+<div style="position:relative;height:6px;background:#3c3c46;border-radius:3px;margin:0 6px;">
+<span style="position:absolute;left:50%;top:-8px;width:3px;height:22px;background:#ffffff;"></span>
+</div>
+<div style="position:relative;color:#9696a0;font-size:12px;margin-top:8px;height:18px;">
+<span style="position:absolute;left:50%;transform:translateX(-50%);color:#fff;">median pending</span>
+</div>
+</div>
+<div style="color:#9696a0;font-size:12px;margin-top:10px;">Monthly rents of active listings &middot; refreshed daily &middot; Source: live IDX search of the Gisèle-Lalonde Secondary School catchment (CEPEO Grades 7 to 12 French-language public secondary sector, GIL)</div>
+</div>
+<!-- MARKET-SNAPSHOT-END -->
 </body>
 </html>
