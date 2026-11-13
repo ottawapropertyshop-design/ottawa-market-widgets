@@ -1,0 +1,194 @@
+[
+ {
+  "id": "7701 fh_sale",
+  "url": "https://www.sellingottawa.realestate/index.php?advanced=1&display=7701+-+Barrhaven+-+Pheasant+Run&areas%5B%5D=area:7701+-+Barrhaven+-+Pheasant+Run:on&beds=0&baths=0&min=50001&max=100000000&types%5B%5D=1&types%5B%5D=31&keywords=Ownership+Type%3DFreehold&sortby=listings.listingdate+DESC&view_timing=2&rtype=list"
+ },
+ {
+  "id": "7701 fh_rental",
+  "url": "https://www.sellingottawa.realestate/index.php?advanced=1&display=7701+-+Barrhaven+-+Pheasant+Run&areas%5B%5D=area:7701+-+Barrhaven+-+Pheasant+Run:on&beds=0&baths=0&min=0&max=50000&types%5B%5D=1&types%5B%5D=31&keywords=Ownership+Type%3DFreehold&sortby=listings.listingdate+DESC&view_timing=2&rtype=list"
+ },
+ {
+  "id": "7701 co_rental",
+  "url": "https://www.sellingottawa.realestate/index.php?advanced=1&display=7701+-+Barrhaven+-+Pheasant+Run&areas%5B%5D=area:7701+-+Barrhaven+-+Pheasant+Run:on&beds=0&baths=0&min=0&max=50000&types%5B%5D=1&types%5B%5D=2&types%5B%5D=31&keywords=Ownership+Type%3DCondominium%2FStrata&sortby=listings.listingdate+DESC&view_timing=2&rtype=list"
+ },
+ {
+  "id": "7701 co_sale",
+  "url": "https://www.sellingottawa.realestate/index.php?advanced=1&display=7701+-+Barrhaven+-+Pheasant+Run&areas%5B%5D=area:7701+-+Barrhaven+-+Pheasant+Run:on&beds=0&baths=0&min=50001&max=100000000&types%5B%5D=1&types%5B%5D=2&types%5B%5D=31&keywords=Ownership+Type%3DCondominium%2FStrata&sortby=listings.listingdate+DESC&view_timing=2&rtype=list"
+ },
+ {
+  "id": "7702 fh_sale",
+  "url": "https://www.sellingottawa.realestate/index.php?advanced=1&display=7702+-+Barrhaven+-+Knollsbrook&areas%5B%5D=area:7702+-+Barrhaven+-+Knollsbrook:on&beds=0&baths=0&min=50001&max=100000000&types%5B%5D=1&types%5B%5D=31&keywords=Ownership+Type%3DFreehold&sortby=listings.listingdate+DESC&view_timing=2&rtype=list"
+ },
+ {
+  "id": "7702 fh_rental",
+  "url": "https://www.sellingottawa.realestate/index.php?advanced=1&display=7702+-+Barrhaven+-+Knollsbrook&areas%5B%5D=area:7702+-+Barrhaven+-+Knollsbrook:on&beds=0&baths=0&min=0&max=50000&types%5B%5D=1&types%5B%5D=31&keywords=Ownership+Type%3DFreehold&sortby=listings.listingdate+DESC&view_timing=2&rtype=list"
+ },
+ {
+  "id": "7702 co_rental",
+  "url": "https://www.sellingottawa.realestate/index.php?advanced=1&display=7702+-+Barrhaven+-+Knollsbrook&areas%5B%5D=area:7702+-+Barrhaven+-+Knollsbrook:on&beds=0&baths=0&min=0&max=50000&types%5B%5D=1&types%5B%5D=2&types%5B%5D=31&keywords=Ownership+Type%3DCondominium%2FStrata&sortby=listings.listingdate+DESC&view_timing=2&rtype=list"
+ },
+ {
+  "id": "7702 co_sale",
+  "url": "https://www.sellingottawa.realestate/index.php?advanced=1&display=7702+-+Barrhaven+-+Knollsbrook&areas%5B%5D=area:7702+-+Barrhaven+-+Knollsbrook:on&beds=0&baths=0&min=50001&max=100000000&types%5B%5D=1&types%5B%5D=2&types%5B%5D=31&keywords=Ownership+Type%3DCondominium%2FStrata&sortby=listings.listingdate+DESC&view_timing=2&rtype=list"
+ },
+ {
+  "id": "7703 fh_sale",
+  "url": "https://www.sellingottawa.realestate/index.php?advanced=1&display=7703+-+Barrhaven+-+Cedargrove%2FFraserdale&areas%5B%5D=area:7703+-+Barrhaven+-+Cedargrove%2FFraserdale:on&beds=0&baths=0&min=50001&max=100000000&types%5B%5D=1&types%5B%5D=31&keywords=Ownership+Type%3DFreehold&sortby=listings.listingdate+DESC&view_timing=2&rtype=list"
+ },
+ {
+  "id": "7703 fh_rental",
+  "url": "https://www.sellingottawa.realestate/index.php?advanced=1&display=7703+-+Barrhaven+-+Cedargrove%2FFraserdale&areas%5B%5D=area:7703+-+Barrhaven+-+Cedargrove%2FFraserdale:on&beds=0&baths=0&min=0&max=50000&types%5B%5D=1&types%5B%5D=31&keywords=Ownership+Type%3DFreehold&sortby=listings.listingdate+DESC&view_timing=2&rtype=list"
+ },
+ {
+  "id": "7703 co_rental",
+  "url": "https://www.sellingottawa.realestate/index.php?advanced=1&display=7703+-+Barrhaven+-+Cedargrove%2FFraserdale&areas%5B%5D=area:7703+-+Barrhaven+-+Cedargrove%2FFraserdale:on&beds=0&baths=0&min=0&max=50000&types%5B%5D=1&types%5B%5D=2&types%5B%5D=31&keywords=Ownership+Type%3DCondominium%2FStrata&sortby=listings.listingdate+DESC&view_timing=2&rtype=list"
+ },
+ {
+  "id": "7703 co_sale",
+  "url": "https://www.sellingottawa.realestate/index.php?advanced=1&display=7703+-+Barrhaven+-+Cedargrove%2FFraserdale&areas%5B%5D=area:7703+-+Barrhaven+-+Cedargrove%2FFraserdale:on&beds=0&baths=0&min=50001&max=100000000&types%5B%5D=1&types%5B%5D=2&types%5B%5D=31&keywords=Ownership+Type%3DCondominium%2FStrata&sortby=listings.listingdate+DESC&view_timing=2&rtype=list"
+ },
+ {
+  "id": "7704 fh_sale",
+  "url": "https://www.sellingottawa.realestate/index.php?advanced=1&display=7704+-+Barrhaven+-+Heritage+Park&areas%5B%5D=area:7704+-+Barrhaven+-+Heritage+Park:on&beds=0&baths=0&min=50001&max=100000000&types%5B%5D=1&types%5B%5D=31&keywords=Ownership+Type%3DFreehold&sortby=listings.listingdate+DESC&view_timing=2&rtype=list"
+ },
+ {
+  "id": "7704 fh_rental",
+  "url": "https://www.sellingottawa.realestate/index.php?advanced=1&display=7704+-+Barrhaven+-+Heritage+Park&areas%5B%5D=area:7704+-+Barrhaven+-+Heritage+Park:on&beds=0&baths=0&min=0&max=50000&types%5B%5D=1&types%5B%5D=31&keywords=Ownership+Type%3DFreehold&sortby=listings.listingdate+DESC&view_timing=2&rtype=list"
+ },
+ {
+  "id": "7704 co_rental",
+  "url": "https://www.sellingottawa.realestate/index.php?advanced=1&display=7704+-+Barrhaven+-+Heritage+Park&areas%5B%5D=area:7704+-+Barrhaven+-+Heritage+Park:on&beds=0&baths=0&min=0&max=50000&types%5B%5D=1&types%5B%5D=2&types%5B%5D=31&keywords=Ownership+Type%3DCondominium%2FStrata&sortby=listings.listingdate+DESC&view_timing=2&rtype=list"
+ },
+ {
+  "id": "7704 co_sale",
+  "url": "https://www.sellingottawa.realestate/index.php?advanced=1&display=7704+-+Barrhaven+-+Heritage+Park&areas%5B%5D=area:7704+-+Barrhaven+-+Heritage+Park:on&beds=0&baths=0&min=50001&max=100000000&types%5B%5D=1&types%5B%5D=2&types%5B%5D=31&keywords=Ownership+Type%3DCondominium%2FStrata&sortby=listings.listingdate+DESC&view_timing=2&rtype=list"
+ },
+ {
+  "id": "7705 fh_sale",
+  "url": "https://www.sellingottawa.realestate/index.php?advanced=1&display=7705+-+Barrhaven+-+On+the+Green&areas%5B%5D=area:7705+-+Barrhaven+-+On+the+Green:on&beds=0&baths=0&min=50001&max=100000000&types%5B%5D=1&types%5B%5D=31&keywords=Ownership+Type%3DFreehold&sortby=listings.listingdate+DESC&view_timing=2&rtype=list"
+ },
+ {
+  "id": "7705 fh_rental",
+  "url": "https://www.sellingottawa.realestate/index.php?advanced=1&display=7705+-+Barrhaven+-+On+the+Green&areas%5B%5D=area:7705+-+Barrhaven+-+On+the+Green:on&beds=0&baths=0&min=0&max=50000&types%5B%5D=1&types%5B%5D=31&keywords=Ownership+Type%3DFreehold&sortby=listings.listingdate+DESC&view_timing=2&rtype=list"
+ },
+ {
+  "id": "7705 co_rental",
+  "url": "https://www.sellingottawa.realestate/index.php?advanced=1&display=7705+-+Barrhaven+-+On+the+Green&areas%5B%5D=area:7705+-+Barrhaven+-+On+the+Green:on&beds=0&baths=0&min=0&max=50000&types%5B%5D=1&types%5B%5D=2&types%5B%5D=31&keywords=Ownership+Type%3DCondominium%2FStrata&sortby=listings.listingdate+DESC&view_timing=2&rtype=list"
+ },
+ {
+  "id": "7705 co_sale",
+  "url": "https://www.sellingottawa.realestate/index.php?advanced=1&display=7705+-+Barrhaven+-+On+the+Green&areas%5B%5D=area:7705+-+Barrhaven+-+On+the+Green:on&beds=0&baths=0&min=50001&max=100000000&types%5B%5D=1&types%5B%5D=2&types%5B%5D=31&keywords=Ownership+Type%3DCondominium%2FStrata&sortby=listings.listingdate+DESC&view_timing=2&rtype=list"
+ },
+ {
+  "id": "7706 fh_sale",
+  "url": "https://www.sellingottawa.realestate/index.php?advanced=1&display=7706+-+Barrhaven+-+Longfields&areas%5B%5D=area:7706+-+Barrhaven+-+Longfields:on&beds=0&baths=0&min=50001&max=100000000&types%5B%5D=1&types%5B%5D=31&keywords=Ownership+Type%3DFreehold&sortby=listings.listingdate+DESC&view_timing=2&rtype=list"
+ },
+ {
+  "id": "7706 fh_rental",
+  "url": "https://www.sellingottawa.realestate/index.php?advanced=1&display=7706+-+Barrhaven+-+Longfields&areas%5B%5D=area:7706+-+Barrhaven+-+Longfields:on&beds=0&baths=0&min=0&max=50000&types%5B%5D=1&types%5B%5D=31&keywords=Ownership+Type%3DFreehold&sortby=listings.listingdate+DESC&view_timing=2&rtype=list"
+ },
+ {
+  "id": "7706 co_rental",
+  "url": "https://www.sellingottawa.realestate/index.php?advanced=1&display=7706+-+Barrhaven+-+Longfields&areas%5B%5D=area:7706+-+Barrhaven+-+Longfields:on&beds=0&baths=0&min=0&max=50000&types%5B%5D=1&types%5B%5D=2&types%5B%5D=31&keywords=Ownership+Type%3DCondominium%2FStrata&sortby=listings.listingdate+DESC&view_timing=2&rtype=list"
+ },
+ {
+  "id": "7706 co_sale",
+  "url": "https://www.sellingottawa.realestate/index.php?advanced=1&display=7706+-+Barrhaven+-+Longfields&areas%5B%5D=area:7706+-+Barrhaven+-+Longfields:on&beds=0&baths=0&min=50001&max=100000000&types%5B%5D=1&types%5B%5D=2&types%5B%5D=31&keywords=Ownership+Type%3DCondominium%2FStrata&sortby=listings.listingdate+DESC&view_timing=2&rtype=list"
+ },
+ {
+  "id": "7707 fh_sale",
+  "url": "https://www.sellingottawa.realestate/index.php?advanced=1&display=7707+-+Barrhaven+-+Hearts+Desire&areas%5B%5D=area:7707+-+Barrhaven+-+Hearts+Desire:on&beds=0&baths=0&min=50001&max=100000000&types%5B%5D=1&types%5B%5D=31&keywords=Ownership+Type%3DFreehold&sortby=listings.listingdate+DESC&view_timing=2&rtype=list"
+ },
+ {
+  "id": "7707 fh_rental",
+  "url": "https://www.sellingottawa.realestate/index.php?advanced=1&display=7707+-+Barrhaven+-+Hearts+Desire&areas%5B%5D=area:7707+-+Barrhaven+-+Hearts+Desire:on&beds=0&baths=0&min=0&max=50000&types%5B%5D=1&types%5B%5D=31&keywords=Ownership+Type%3DFreehold&sortby=listings.listingdate+DESC&view_timing=2&rtype=list"
+ },
+ {
+  "id": "7707 co_rental",
+  "url": "https://www.sellingottawa.realestate/index.php?advanced=1&display=7707+-+Barrhaven+-+Hearts+Desire&areas%5B%5D=area:7707+-+Barrhaven+-+Hearts+Desire:on&beds=0&baths=0&min=0&max=50000&types%5B%5D=1&types%5B%5D=2&types%5B%5D=31&keywords=Ownership+Type%3DCondominium%2FStrata&sortby=listings.listingdate+DESC&view_timing=2&rtype=list"
+ },
+ {
+  "id": "7707 co_sale",
+  "url": "https://www.sellingottawa.realestate/index.php?advanced=1&display=7707+-+Barrhaven+-+Hearts+Desire&areas%5B%5D=area:7707+-+Barrhaven+-+Hearts+Desire:on&beds=0&baths=0&min=50001&max=100000000&types%5B%5D=1&types%5B%5D=2&types%5B%5D=31&keywords=Ownership+Type%3DCondominium%2FStrata&sortby=listings.listingdate+DESC&view_timing=2&rtype=list"
+ },
+ {
+  "id": "7708 fh_sale",
+  "url": "https://www.sellingottawa.realestate/index.php?advanced=1&display=7708+-+Barrhaven+-+Stonebridge&areas%5B%5D=area:7708+-+Barrhaven+-+Stonebridge:on&beds=0&baths=0&min=50001&max=100000000&types%5B%5D=1&types%5B%5D=31&keywords=Ownership+Type%3DFreehold&sortby=listings.listingdate+DESC&view_timing=2&rtype=list"
+ },
+ {
+  "id": "7708 fh_rental",
+  "url": "https://www.sellingottawa.realestate/index.php?advanced=1&display=7708+-+Barrhaven+-+Stonebridge&areas%5B%5D=area:7708+-+Barrhaven+-+Stonebridge:on&beds=0&baths=0&min=0&max=50000&types%5B%5D=1&types%5B%5D=31&keywords=Ownership+Type%3DFreehold&sortby=listings.listingdate+DESC&view_timing=2&rtype=list"
+ },
+ {
+  "id": "7708 co_rental",
+  "url": "https://www.sellingottawa.realestate/index.php?advanced=1&display=7708+-+Barrhaven+-+Stonebridge&areas%5B%5D=area:7708+-+Barrhaven+-+Stonebridge:on&beds=0&baths=0&min=0&max=50000&types%5B%5D=1&types%5B%5D=2&types%5B%5D=31&keywords=Ownership+Type%3DCondominium%2FStrata&sortby=listings.listingdate+DESC&view_timing=2&rtype=list"
+ },
+ {
+  "id": "7708 co_sale",
+  "url": "https://www.sellingottawa.realestate/index.php?advanced=1&display=7708+-+Barrhaven+-+Stonebridge&areas%5B%5D=area:7708+-+Barrhaven+-+Stonebridge:on&beds=0&baths=0&min=50001&max=100000000&types%5B%5D=1&types%5B%5D=2&types%5B%5D=31&keywords=Ownership+Type%3DCondominium%2FStrata&sortby=listings.listingdate+DESC&view_timing=2&rtype=list"
+ },
+ {
+  "id": "7709 fh_sale",
+  "url": "https://www.sellingottawa.realestate/index.php?advanced=1&display=7709+-+Barrhaven+-+Strandherd&areas%5B%5D=area:7709+-+Barrhaven+-+Strandherd:on&beds=0&baths=0&min=50001&max=100000000&types%5B%5D=1&types%5B%5D=31&keywords=Ownership+Type%3DFreehold&sortby=listings.listingdate+DESC&view_timing=2&rtype=list"
+ },
+ {
+  "id": "7709 fh_rental",
+  "url": "https://www.sellingottawa.realestate/index.php?advanced=1&display=7709+-+Barrhaven+-+Strandherd&areas%5B%5D=area:7709+-+Barrhaven+-+Strandherd:on&beds=0&baths=0&min=0&max=50000&types%5B%5D=1&types%5B%5D=31&keywords=Ownership+Type%3DFreehold&sortby=listings.listingdate+DESC&view_timing=2&rtype=list"
+ },
+ {
+  "id": "7709 co_rental",
+  "url": "https://www.sellingottawa.realestate/index.php?advanced=1&display=7709+-+Barrhaven+-+Strandherd&areas%5B%5D=area:7709+-+Barrhaven+-+Strandherd:on&beds=0&baths=0&min=0&max=50000&types%5B%5D=1&types%5B%5D=2&types%5B%5D=31&keywords=Ownership+Type%3DCondominium%2FStrata&sortby=listings.listingdate+DESC&view_timing=2&rtype=list"
+ },
+ {
+  "id": "7709 co_sale",
+  "url": "https://www.sellingottawa.realestate/index.php?advanced=1&display=7709+-+Barrhaven+-+Strandherd&areas%5B%5D=area:7709+-+Barrhaven+-+Strandherd:on&beds=0&baths=0&min=50001&max=100000000&types%5B%5D=1&types%5B%5D=2&types%5B%5D=31&keywords=Ownership+Type%3DCondominium%2FStrata&sortby=listings.listingdate+DESC&view_timing=2&rtype=list"
+ },
+ {
+  "id": "7710 fh_sale",
+  "url": "https://www.sellingottawa.realestate/index.php?advanced=1&display=Barrhaven+East&min=50001&max=100000000&beds=0&baths=0&minfootage=0&maxfootage=30000&minacres=0&maxacres=0&yearbuilt=0&maxyearbuilt=0&walkscore=0&polygons%5B%5D=-75.7262%2C45.2892%2C-75.717%2C45.289%2C-75.708%2C45.2872%2C-75.7038%2C45.287%2C-75.7032%2C45.295%2C-75.7008%2C45.3035%2C-75.6992%2C45.3028%2C-75.6998%2C45.295%2C-75.699%2C45.2845%2C-75.7022%2C45.2725%2C-75.7035%2C45.2618%2C-75.7115%2C45.2592%2C-75.7142%2C45.267%2C-75.7198%2C45.277%2C-75.7262%2C45.2892&types%5B%5D=1&types%5B%5D=31&keywords=Ownership+Type%3DFreehold&sortby=listings.listingdate+DESC&rtype=list"
+ },
+ {
+  "id": "7710 fh_rental",
+  "url": "https://www.sellingottawa.realestate/index.php?advanced=1&display=Barrhaven+East&min=0&max=50000&beds=0&baths=0&minfootage=0&maxfootage=30000&minacres=0&maxacres=0&yearbuilt=0&maxyearbuilt=0&walkscore=0&polygons%5B%5D=-75.7262%2C45.2892%2C-75.717%2C45.289%2C-75.708%2C45.2872%2C-75.7038%2C45.287%2C-75.7032%2C45.295%2C-75.7008%2C45.3035%2C-75.6992%2C45.3028%2C-75.6998%2C45.295%2C-75.699%2C45.2845%2C-75.7022%2C45.2725%2C-75.7035%2C45.2618%2C-75.7115%2C45.2592%2C-75.7142%2C45.267%2C-75.7198%2C45.277%2C-75.7262%2C45.2892&types%5B%5D=1&types%5B%5D=31&keywords=Ownership+Type%3DFreehold&sortby=listings.listingdate+DESC&rtype=list"
+ },
+ {
+  "id": "7710 co_rental",
+  "url": "https://www.sellingottawa.realestate/index.php?advanced=1&display=Barrhaven+East&min=0&max=50000&beds=0&baths=0&minfootage=0&maxfootage=30000&minacres=0&maxacres=0&yearbuilt=0&maxyearbuilt=0&walkscore=0&polygons%5B%5D=-75.7262%2C45.2892%2C-75.717%2C45.289%2C-75.708%2C45.2872%2C-75.7038%2C45.287%2C-75.7032%2C45.295%2C-75.7008%2C45.3035%2C-75.6992%2C45.3028%2C-75.6998%2C45.295%2C-75.699%2C45.2845%2C-75.7022%2C45.2725%2C-75.7035%2C45.2618%2C-75.7115%2C45.2592%2C-75.7142%2C45.267%2C-75.7198%2C45.277%2C-75.7262%2C45.2892&types%5B%5D=1&types%5B%5D=2&types%5B%5D=31&keywords=Ownership+Type%3DCondominium%2FStrata&sortby=listings.listingdate+DESC&rtype=list"
+ },
+ {
+  "id": "7710 co_sale",
+  "url": "https://www.sellingottawa.realestate/index.php?advanced=1&display=Barrhaven+East&min=50001&max=100000000&beds=0&baths=0&minfootage=0&maxfootage=30000&minacres=0&maxacres=0&yearbuilt=0&maxyearbuilt=0&walkscore=0&polygons%5B%5D=-75.7262%2C45.2892%2C-75.717%2C45.289%2C-75.708%2C45.2872%2C-75.7038%2C45.287%2C-75.7032%2C45.295%2C-75.7008%2C45.3035%2C-75.6992%2C45.3028%2C-75.6998%2C45.295%2C-75.699%2C45.2845%2C-75.7022%2C45.2725%2C-75.7035%2C45.2618%2C-75.7115%2C45.2592%2C-75.7142%2C45.267%2C-75.7198%2C45.277%2C-75.7262%2C45.2892&types%5B%5D=1&types%5B%5D=2&types%5B%5D=31&keywords=Ownership+Type%3DCondominium%2FStrata&sortby=listings.listingdate+DESC&rtype=list"
+ },
+ {
+  "id": "7711 fh_sale",
+  "url": "https://www.sellingottawa.realestate/index.php?advanced=1&display=7711+-+Barrhaven+-+Half+Moon+Bay&areas%5B%5D=area:7711+-+Barrhaven+-+Half+Moon+Bay:on&beds=0&baths=0&min=50001&max=100000000&types%5B%5D=1&types%5B%5D=31&keywords=Ownership+Type%3DFreehold&sortby=listings.listingdate+DESC&view_timing=2&rtype=list"
+ },
+ {
+  "id": "7711 fh_rental",
+  "url": "https://www.sellingottawa.realestate/index.php?advanced=1&display=7711+-+Barrhaven+-+Half+Moon+Bay&areas%5B%5D=area:7711+-+Barrhaven+-+Half+Moon+Bay:on&beds=0&baths=0&min=0&max=50000&types%5B%5D=1&types%5B%5D=31&keywords=Ownership+Type%3DFreehold&sortby=listings.listingdate+DESC&view_timing=2&rtype=list"
+ },
+ {
+  "id": "7711 co_rental",
+  "url": "https://www.sellingottawa.realestate/index.php?advanced=1&display=7711+-+Barrhaven+-+Half+Moon+Bay&areas%5B%5D=area:7711+-+Barrhaven+-+Half+Moon+Bay:on&beds=0&baths=0&min=0&max=50000&types%5B%5D=1&types%5B%5D=2&types%5B%5D=31&keywords=Ownership+Type%3DCondominium%2FStrata&sortby=listings.listingdate+DESC&view_timing=2&rtype=list"
+ },
+ {
+  "id": "7711 co_sale",
+  "url": "https://www.sellingottawa.realestate/index.php?advanced=1&display=7711+-+Barrhaven+-+Half+Moon+Bay&areas%5B%5D=area:7711+-+Barrhaven+-+Half+Moon+Bay:on&beds=0&baths=0&min=50001&max=100000000&types%5B%5D=1&types%5B%5D=2&types%5B%5D=31&keywords=Ownership+Type%3DCondominium%2FStrata&sortby=listings.listingdate+DESC&view_timing=2&rtype=list"
+ },
+ {
+  "id": "hub fh_sale",
+  "url": "https://www.sellingottawa.realestate/index.php?advanced=1&display=Barrhaven&areas%5B%5D=area:Barrhaven:on&pak=area:g20_f241s0wm&beds=0&baths=0&min=100000&max=100000000&types%5B%5D=1&types%5B%5D=31&keywords=Ownership+Type%3DFreehold&sortby=listings.listingdate+DESC&view_timing=2&rtype=list"
+ },
+ {
+  "id": "hub fh_rental",
+  "url": "https://www.sellingottawa.realestate/index.php?advanced=1&display=Barrhaven&areas%5B%5D=area:Barrhaven:on&pak=area:g20_f241s0wm&beds=0&baths=0&min=0&max=50000&types%5B%5D=1&types%5B%5D=31&keywords=Ownership+Type%3DFreehold&sortby=listings.listingdate+DESC&view_timing=2&rtype=list"
+ },
+ {
+  "id": "hub co_rental",
+  "url": "https://www.sellingottawa.realestate/index.php?advanced=1&display=Barrhaven&areas%5B%5D=area:Barrhaven:on&pak=area:g20_f241s0wm&beds=0&baths=0&min=0&max=50000&types%5B%5D=1&types%5B%5D=2&types%5B%5D=31&keywords=Ownership+Type%3DCondominium%2FStrata&sortby=listings.listingdate+DESC&view_timing=2&rtype=list"
+ },
+ {
+  "id": "hub co_sale",
+  "url": "https://www.sellingottawa.realestate/index.php?advanced=1&display=Barrhaven&areas%5B%5D=area:Barrhaven:on&pak=area:g20_f241s0wm&beds=0&baths=0&min=50001&max=100000000&types%5B%5D=1&types%5B%5D=2&types%5B%5D=31&keywords=Ownership+Type%3DCondominium%2FStrata&sortby=listings.listingdate+DESC&view_timing=2&rtype=list"
+ }
+]
