@@ -1,0 +1,539 @@
+# NC Campaign — Full Copy Deck (248 touches)
+
+**Status:** FOR TOM'S APPROVAL — nothing is loaded into kvCORE before Tom approves this copy.
+**Structure:** approved by Tom Nov 9, 2026 (09:55) — see nc-campaign-structure-2026-11-09.md.
+**Totals:** 248 touches — 129 EMAIL + 119 SMS. Phase 1 (Days 0–33): 38 · Phase 2 (Days 37–97): 16 · Phase 3 (Days 104–1455): 194.
+**Composition:** 38 original deck touches (33 verbatim + 5 evergreen rewords) · 18 NEW asset touches · 192 NEW evergreen tail touches.
+
+## Positioning (the forefront of every new touch)
+Tom serves as the buyer's source of information BEFORE they make a decision — on location, type of house, number of bedrooms, and the potential builders. He is the guide, the resource, the person they reach out to first. Sell the future — the life in the right home — never the process.
+
+## Rules carried through this deck
+- **SMS: hard cap 160 characters, target ~150.** Longest text in this deck: 154 characters (Touch 8, which carries the longest blog URL). All 119 texts measured programmatically.
+- **All 248 touches are English only (Tom, Nov 9).** Campaign touches #42 and #48 were rewritten in English; the Polish versions are retired.
+- **HN Homes is never referenced — blacklisted builder (Tom, Nov 9).**
+- **Emails:** subject + 100–200 words, one idea each; every email closes with call/text 613-314-1199 and the signature line.
+- **Deck touches 26, 27, 28, 30, 31 are EVERGREEN REWORDS** (Tom's ruling): the March 31, 2027 countdown framing is removed; rung, channel and topic kept.
+- **Asset touches** each carry their blog's live URL. Three guides (Barrhaven, East Ottawa, Riverside South & Findlay Creek) are marked SLOTS IN WHEN PUBLISHED — copy is written and loads when the post publishes.
+- **No touch links to the campaign's own registration form** (no loop-back). No commission or referral language. No emojis. Token: [First Name] → kvCORE {{contact.first_name}}.
+- **Campaign #248 (close):** the approved structure assigns the sunset to SMS; Touch 38's standing offer is carried as a text, and the full email original stands in the 2026-10-10 deck.
+- Ladder integrity (from the source deck): every touch sells only the next rung — gift → 15-minute call → options review → shortlist → joint first visit. The word "consultation" never appears.
+
+## PHASE 1 — DAYS 0–33: Front-loaded (deck hot zone + all 18 asset touches)
+
+### Touch 1 — Day 0 — EMAIL — Welcome + PDF delivery
+**Rung:** 1→2 — PDF delivered; sell the 15-minute call. Deploy First-Visit Trap. · **Purpose:** Deliver the v1 gift; sell the 15-minute call — the registration rule lands on Day 0.
+**Subject:** Your Builder Deals PDF is here (+ one thing you must know first)
+**Source:** Deck Touch 1 — carried verbatim from the 2026-10-10 deck.
+
+Hi [First Name],
+
+Your Builder Deals PDF is attached — 17 Ottawa-area builders, real before-and-after rebate prices, deposit structures, and the incentive sheets builders don't advertise.
+
+Before you open it, the one thing that matters most: there is exactly ONE mistake in new construction you cannot undo — signing a builder's guest sheet before your own agent registers you. Everything else (the lot, the upgrades, the price) is negotiable. That signature isn't. Once your name is on their registration form alone, I am legally locked out — not "it'll cost a fee." Locked out. Nobody at the door will warn you.
+
+The PDF is free. The 15-minute call is free. The meeting is free. The only thing that costs you money is walking in alone.
+
+Take the call — I'll tell you which two builders fit your budget before you waste a single Sunday driving around. No pitch, no pressure.
+
+Call or text me: 613-314-1199
+Tomasz R. Witek, Real Estate Agent | eXp Realty, Brokerage
+
+### Touch 2 — Day 0 — SMS — PDF confirmation + pre-empt
+**Rung:** 2 — confirm delivery; plant the pre-empt same-day. · **Purpose:** Confirm delivery the same day; plant the pre-empt before any sales-office visit.
+**Source:** Deck Touch 2 — carried verbatim from the 2026-10-10 deck.
+
+PDF's in your inbox. Before you open it: don't visit any sales office till we've talked 15 min — free, no pitch. 613-314-1199 — Tom
+
+### Touch 3 — Day 1 — SMS — Sunday-drive pre-empt
+**Rung:** 2 — sell the 15-minute call before the first weekend. · **Purpose:** Pre-empt the first weekend of touring: the call comes before the drive.
+**Source:** Deck Touch 3 — carried verbatim from the 2026-10-10 deck.
+
+Heads up before Sunday: "just looking around" is how the registration trap closes. One 15-min call first — free, no pitch. 613-314-1199 — Tom
+
+### Touch 4 — Day 1 — EMAIL — Foreign Buyer Ban Extended to 2029 for Resale Homes But Lifted for New Homes — What Ottawa Buyers and Sellers Need to Know
+**Purpose:** Eligibility before decisions: who can buy what, and the new-build exemption — ask Tom before assuming either way.
+**Subject:** Who can buy what just changed — the foreign-buyer rules, plainly
+**Source:** NEW — asset touch.
+
+Hi [First Name],
+
+Before floor plans and finishes, one question decides which shelf you even shop from: are you eligible to buy, and what?
+
+Parliament has moved to extend the foreign-buyer ban on resale homes out to 2029 — while lifting it for NEW residential properties. If you, your spouse, or the family helping you buy are new to Canada, on a work permit, or buying from abroad, that split matters: resale may be closed to you while new construction is wide open.
+
+I wrote the full breakdown — who is exempt, what counts as a new property, and how the ban interacts with the taxes and rebates: https://www.sellingottawa.realestate/blog/Foreign+Buyer+Ban+Extended+to+2029+for+Resale+Homes+But+Lifted+for+New+Homes+What+Ottawa+Buyers+and+Sellers+Need+to+Know
+
+Don't assume either way, and don't let a sales office assume for you. If eligibility is anywhere in your picture, talk to me before you fall for a home you can't buy — or walk past one you can.
+
+Call or text: 613-314-1199
+Tomasz R. Witek, Real Estate Agent | eXp Realty, Brokerage
+
+### Touch 5 — Day 2 — EMAIL — Rebate math, decoded
+**Rung:** 2 — value delivery earns the call; Sunday-drive pre-empt reinforced. · **Purpose:** Value first — the rebate math that earns the call.
+**Subject:** The $130,000 rebate, decoded (I read the legislation)
+**Source:** Deck Touch 4 — carried verbatim from the 2026-10-10 deck.
+
+Hi [First Name],
+
+Every builder ad mentions the $130,000. Almost none explain it. Here's the straight version — I read the legislation myself:
+
+**Ontario's enhanced HST new-housing rebate:** up to $130,000 back on a new home, for agreements signed April 1, 2026 to March 31, 2027. Not extended. No replacement announced.
+
+**Federal first-time-buyer GST rebate:** up to $50,000 — that's the 5% federal GST portion, not 13%. Anyone telling you there's a "federal 13% rebate" is confusing Ontario's 13% HST rate with the federal program. There isn't one.
+
+The trap: some builders show prices AFTER the rebate, some BEFORE, some won't say. A $130,000 swing hides inside that confusion.
+
+And I know what you'll want to do this weekend: drive out, walk into two or three sales offices, "just look around." I get it — I'd want to do the same. Here's the problem: "just looking" is how the registration trap closes. The rep is lovely, the model home is gorgeous, and by the time you leave, you're registered. Alone. Drive the neighborhoods all you want — just don't go INSIDE or sign anything until we've talked for 15 minutes.
+
+Send me any builder quote and I'll decode it line by line — free.
+
+Call or text: 613-314-1199
+Tomasz R. Witek, Real Estate Agent | eXp Realty, Brokerage
+
+### Touch 6 — Day 2 — EMAIL — Buying New Construction in Ottawa and the One Mistake You Cannot Reverse
+**Purpose:** The flagship: the registration rule that protects every later decision — contact Tom before the first visit.
+**Subject:** The one new-build mistake you cannot reverse
+**Source:** NEW — asset touch.
+
+Hi [First Name],
+
+Everything in new construction is negotiable — the lot, the upgrades, the closing date — except one thing: who registered you.
+
+The day you first walk into a sales office, the name on the guest sheet decides who represents you for that builder. Sign it alone, and no agent — including me — can step in afterward to protect you. It is the only irreversible step in the whole purchase, and it happens in the first five minutes.
+
+My flagship guide walks the whole process in order — registration, rebates, deposits, Tarion, closing — so you see the full road before you take the first step: https://www.sellingottawa.realestate/blog/Buying+New+Construction+in+Ottawa+and+the+One+Mistake+You+Cannot+Reverse
+
+Read it before your first visit. Then let me be the name beside yours.
+
+Call or text: 613-314-1199
+Tomasz R. Witek, Real Estate Agent | eXp Realty, Brokerage
+
+### Touch 7 — Day 3 — SMS — Budget-match offer
+**Rung:** 2 — personalized value earns the call. · **Purpose:** The call ask: Tom names the two builders that fit their budget.
+**Source:** Deck Touch 5 — carried verbatim from the 2026-10-10 deck.
+
+Quick question: what's your budget range? I'll tell you which 2 builders actually fit it — saves weeks of Sunday drives. 613-314-1199 — Tom
+
+### Touch 8 — Day 3 — SMS — New Construction Homes in Ottawa Builder Incentives and HST Rebate Guide
+**Purpose:** Builder choice + money: reading incentives and rebates before comparing builders.
+**Source:** NEW — asset touch.
+
+Incentives, decoded: https://www.sellingottawa.realestate/blog/New+Construction+Homes+in+Ottawa+Builder+Incentives+and+HST+Rebate+Guide 613-314-1199 — Tom
+
+### Touch 9 — Day 4 — EMAIL — The doorman works for the builder
+**Rung:** 2 — authority inversion earns the call. · **Purpose:** Why the first visit needs Tom beside them, not the builder's staff.
+**Subject:** The rep was lovely. She works for the builder.
+**Source:** Deck Touch 6 — carried verbatim from the 2026-10-10 deck.
+
+Hi [First Name],
+
+Let me tell you something the sales office never will: the rep who greets you at the door was lovely. She also works for the builder. That's not a criticism — it's her job description. Her job is to sell you that builder's homes, at that builder's prices, on that builder's terms.
+
+You wouldn't walk into court with only the other side's lawyer in the room. Same principle, bigger purchase.
+
+Here's a question to ask at any sales office: "Who do you represent?" They'll answer honestly — the builder. Now ask yourself: who's representing you?
+
+That's the gap I fill, and on most new homes it costs you nothing out of pocket — the builder pays cooperating agents as part of their pricing. Walking in alone doesn't save you that money. It just leaves you as the only unrepresented person in the room.
+
+Fifteen minutes with me before your first visit, and you'll walk in with someone whose job description is YOU.
+
+Call or text: 613-314-1199
+Tomasz R. Witek, Real Estate Agent | eXp Realty, Brokerage
+
+### Touch 10 — Day 5 — SMS — Credibility nudge
+**Rung:** 2 — sell the call. · **Purpose:** Keeps the call offer warm with a proof point.
+**Source:** Deck Touch 7 — carried verbatim from the 2026-10-10 deck.
+
+Read the legislation myself: $130K Ontario rebate ends Mar 31, 2027. Send your builder quote — I'll decode it line by line free. 613-314-1199 — Tom
+
+### Touch 11 — Day 5 — EMAIL — Ontario HST Rebate on New Homes — Up to $130,000 and How It Stacks
+**Purpose:** Money-protection: the rebate structure to understand before a price means anything.
+**Subject:** The $130,000 Ontario rebate — and how it stacks
+**Source:** NEW — asset touch.
+
+Hi [First Name],
+
+Ottawa new-build prices are quoted two ways — before the rebate and after it — and the difference can be six figures. The Ontario enhanced HST rebate is worth up to $130,000 on a new home, and it stacks with the federal first-time-buyer break in a specific order that changes the real price of the same house.
+
+My guide lays out the stack line by line: what the Ontario piece covers, what the federal piece covers, who qualifies for each, and how to tell whether a builder's advertised number has the rebates baked in or still to come: https://www.sellingottawa.realestate/blog/Ontario+HST+Rebate+on+New+Homes+Up+to+130000+Dollars+and+How+It+Stacks+With+the+Federal+Rebate
+
+Before any price means anything to you, this is the math to understand. Send me any quote and I'll run the stack on it, free.
+
+Call or text: 613-314-1199
+Tomasz R. Witek, Real Estate Agent | eXp Realty, Brokerage
+
+### Touch 12 — Day 6 — EMAIL — The $100K illusion + the DIY myth
+**Rung:** 2→3 — kill the "better deal alone" fantasy; escalate to the options review. · **Purpose:** Dismantles the DIY myth — the value of a guide on their side of the table.
+**Subject:** Same sticker price, $100,000 apart
+**Source:** Deck Touch 8 — carried verbatim from the 2026-10-10 deck.
+
+Hi [First Name],
+
+Two Ottawa new builds. Same sticker price on the sign. $100,000 apart in real cost.
+
+Real example from my research: a Caivan Ironridge single listed at $1,054,990 — $954,858 after rebates. Same market, another builder's "$1,054,990" can mean something entirely different, depending on whether the rebate is baked in, what's included, and what lands at closing.
+
+This is why I label every price I show you BEFORE or AFTER rebates. No exceptions. Builders should do the same — most don't.
+
+Now the thing some buyers tell me: "I'll skip the agent and get a better deal direct." Here's the truth — builders set their prices and incentives in advance, including what they pay cooperating agents. That money doesn't come back to you if you go alone. It just stays with the builder. Going alone doesn't make the house cheaper. It makes you unrepresented. If a builder ever offers you a discount in writing for going direct, bring it to me and I'll tell you honestly whether it's real.
+
+Fifteen minutes and you'll know more about Ottawa new construction than 90% of buyers walking into sales offices this weekend. Then, when you're ready, I'll walk you through the lots and plans the websites don't show — that's the options review, also free.
+
+Call or text: 613-314-1199
+Tomasz R. Witek, Real Estate Agent | eXp Realty, Brokerage
+
+### Touch 13 — Day 6 — SMS — Deposit Structures Ottawa Decoded
+**Purpose:** Money-protection: what the deposit schedule commits them to — text Tom before signing.
+**Source:** NEW — asset touch.
+
+Deposits decoded — what you owe, and when: https://www.sellingottawa.realestate/blog/New+Construction+Deposit+Structures+Ottawa+Decoded 613-314-1199 — Tom
+
+### Touch 14 — Day 7 — SMS — Options review offer
+**Rung:** 3 — sell the options review meeting. · **Purpose:** The meeting rung of the ladder: the options review.
+**Source:** Deck Touch 9 — carried verbatim from the 2026-10-10 deck.
+
+Ready for the options review? I'll walk you through the lots and plans builders don't put online — 15 min, free, no pitch. 613-314-1199 — Tom
+
+### Touch 15 — Day 8 — EMAIL — Federal First Time Home Buyer GST Rebate — the $50,000 Federal Break
+**Purpose:** Money-protection for first-time buyers: stacking the federal break correctly.
+**Subject:** First-time buyer? The federal $50,000 break, explained
+**Source:** NEW — asset touch.
+
+Hi [First Name],
+
+If this is your first home, there is a federal break built for you: a GST rebate worth up to $50,000 on a new build. Two things most buyers get wrong about it: it covers the 5% federal portion only — there is no "federal 13% rebate" — and it stacks with Ontario's rebate in an order that changes your real price.
+
+My guide walks the eligibility rules, the price thresholds where the break phases down, and how it combines with the Ontario rebate on the same purchase: https://www.sellingottawa.realestate/blog/Federal+First+Time+Home+Buyer+GST+Rebate+New+Home+50000
+
+First homes are where my guidance pays for itself fastest — the families I help stack both breaks correctly instead of discovering the second one after signing. Questions on your numbers? Send them over.
+
+Call or text: 613-314-1199
+Tomasz R. Witek, Real Estate Agent | eXp Realty, Brokerage
+
+### Touch 16 — Day 9 — EMAIL — The unadvertised layer
+**Rung:** 3 — curiosity gaps earn the meeting. · **Purpose:** The lots and incentives a buyer never sees walking in alone.
+**Subject:** What the PDF doesn't have (and why)
+**Source:** Deck Touch 10 — carried verbatim from the 2026-10-10 deck.
+
+Hi [First Name],
+
+The Builder Deals PDF you downloaded has the advertised incentives — the ones builders put on their websites. Here's what it doesn't have, and why:
+
+The lot-release sheets. The standing inventory nobody lists online. Which floor plans get quietly discounted when a phase stalls. Which lots carry the real price cuts versus the marketing ones.
+
+Builders tell registered agents things they don't put on their websites. I can't email you that part — it changes weekly, and it's tied to specific lots. If everything were on the website, nobody would need a sales office. The good stuff happens in conversation.
+
+That's not a sales line. It's how this market actually works: the advertised price is the starting point, and the real picture lives in the weekly sheets I monitor for my buyers.
+
+The options review is where I walk you through it — your budget, the current sheets, the lots worth your attention. Free, before you register anywhere.
+
+Call or text: 613-314-1199
+Tomasz R. Witek, Real Estate Agent | eXp Realty, Brokerage
+
+### Touch 17 — Day 10 — EMAIL — Pre Construction vs Resale Ottawa — Honest Cost Comparison
+**Purpose:** House-type decision: the honest cost comparison before choosing new over resale.
+**Subject:** New build or resale? The honest cost comparison
+**Source:** NEW — asset touch.
+
+Hi [First Name],
+
+Almost every buyer asks it, usually too late: would resale have been cheaper? The honest answer depends on what you count. New build carries HST, levies and a wait — but staged deposits, Tarion warranty, and a home nobody has lived in. Resale carries bidding pressure and immediate closing costs — but you see exactly what you're buying, on your timeline.
+
+I compared the two paths line by line — purchase price, taxes, deposits, closing costs, and the five-year picture — so you can decide house type with your eyes open: https://www.sellingottawa.realestate/blog/Pre+Construction+vs+Resale+Ottawa+Honest+Cost+Comparison
+
+This is exactly the kind of decision to make with a guide before emotion picks a side. Tell me your timeline and I'll tell you which path fits it.
+
+Call or text: 613-314-1199
+Tomasz R. Witek, Real Estate Agent | eXp Realty, Brokerage
+
+### Touch 18 — Day 11 — SMS — Social proof
+**Rung:** 2→3 — the herd earns the call, then the meeting. · **Purpose:** Buyers who called first — proof the resource works.
+**Source:** Deck Touch 11 — carried verbatim from the 2026-10-10 deck.
+
+Most of my builder buyers came to me AFTER they almost registered alone. The smart ones call first. Be the smart one — 613-314-1199 — Tom
+
+### Touch 19 — Day 12 — EMAIL — Deposit structures
+**Rung:** 3 — fear reduction via expertise earns the meeting. · **Purpose:** Deposit structures decoded: money-protection value before anything is signed.
+**Subject:** Your deposit could be 3%… or $80,000
+**Source:** Deck Touch 12 — carried verbatim from the 2026-10-10 deck.
+
+Hi [First Name],
+
+Nobody advertises this, but it's the number that kills most first-time new-build deals: the deposit.
+
+Same city, same month, wildly different cash needed on signing day:
+- Caivan Summit Series: 3% total, staged 1%+1%+1%
+- eQ Homes singles: $75,000
+- Uniform Urban: $80,000 within 90 days
+- Tamarack towns: $50,000 staged
+
+Fall in love with a model home first and discover the deposit later, and you're negotiating from weakness.
+
+The scariest part of new construction isn't the price — it's the deposit schedule buried on page 14 of the builder's agreement. Tarion, occupancy fees, PDI inspections, the 30-day/1-year/2-year warranty claims — nobody at the sales office slows down to explain these. I do, before you commit. Bring me the builder's agreement BEFORE you sign anything and I'll read the fine print with you, free. That's literally what I'm for.
+
+Want your cash number mapped before the sales centre knows your name? Call or text: 613-314-1199
+Tomasz R. Witek, Real Estate Agent | eXp Realty, Brokerage
+
+### Touch 20 — Day 13 — EMAIL — New Homes Under 1 Million in Ottawa — Full Rebate Communities
+**Purpose:** Location + budget: where the full-rebate math works under $1M.
+**Subject:** Under $1M with the full rebate math — where it works
+**Source:** NEW — asset touch.
+
+Hi [First Name],
+
+A detached budget isn't required for a smart new-build buy. In specific Ottawa communities, homes under $1 million still capture the full rebate math — both the Ontario and federal breaks at their strongest — which changes what "under a million" actually buys you: more house, in a newer community, than the resale shelf offers at the same number.
+
+My guide maps where that math works — the communities, the product types (towns, stacked towns, smaller singles), and the price points where the breaks phase down: https://www.sellingottawa.realestate/blog/New+Homes+Under+1+Million+in+Ottawa+Full+Rebate+Communities
+
+Location plus budget is a decision to make on a map, not in a model home. Tell me your ceiling and I'll show you which of these communities fits your life.
+
+Call or text: 613-314-1199
+Tomasz R. Witek, Real Estate Agent | eXp Realty, Brokerage
+
+### Touch 21 — Day 14 — EMAIL — The resale question
+**Rung:** 3 — the Resale Lens (future-self loss aversion) earns the meeting. · **Purpose:** The honest resale comparison most builder sales offices skip.
+**Subject:** The question nobody in the sales office will ask you
+**Source:** Deck Touch 13 — carried verbatim from the 2026-10-10 deck.
+
+Hi [First Name],
+
+You'll fall in love with a model home. That's the builder's job — the staging, the lighting, the smell. My job is to ask the question nobody in that sales office will: what is this worth when YOU sell it in seven years?
+
+The prettiest floor plan on the wrong lot is still on the wrong lot. Backing onto the arterial, the hydro corridor, the future school site — the rep won't volunteer that. I will. I keep resale data on which plans and lots actually appreciate, and that's a meeting conversation, not a PDF table.
+
+Two weeks in, here's where serious buyers are: they've got the rebate math, they know the deposit landscape, and they're ready to look at real lots with someone who'll tell them the truth about each one. That's the options review — I'll match your budget to current stock and flag the lots the websites don't show.
+
+Free. Before you register anywhere. Before the next price increase.
+
+Call or text: 613-314-1199
+Tomasz R. Witek, Real Estate Agent | eXp Realty, Brokerage
+
+### Touch 22 — Day 14 — SMS — Tarion Warranty Ottawa New Homes — 1, 2, 7 Explained
+**Purpose:** Protection literacy: what Tarion covers before they rely on it — call Tom with questions.
+**Source:** NEW — asset touch.
+
+Tarion 1-2-7 warranty, in plain English: https://www.sellingottawa.realestate/blog/Tarion+Warranty+Ottawa+New+Homes+1+2+7+Explained 613-314-1199 — Tom
+
+### Touch 23 — Day 15 — EMAIL — Pre Construction Condos Ottawa — Tarion Deposit Protection
+**Purpose:** House-type decision: condo deposit protection before choosing a condo product.
+**Subject:** Pre-con condo? Your deposit runs on a protection schedule
+**Source:** NEW — asset touch.
+
+Hi [First Name],
+
+A pre-construction condo is a different product from a house — and its deposit plays by different rules. Tarion protects condo deposits up to a defined cap, the rest sits with the builder, and interim occupancy means you can be paying to live in a building you don't yet own.
+
+My guide explains the protection schedule, what happens to your money if a project is delayed or cancelled, and the questions to ask before any condo deposit leaves your account: https://www.sellingottawa.realestate/blog/Pre+Construction+Condos+Ottawa+Tarion+Deposit+Protection
+
+Condos are the right answer for plenty of buyers — smaller footprint, lock-and-leave life, lower entry price. Just choose one knowing exactly how your deposit is held. Ask me before you sign.
+
+Call or text: 613-314-1199
+Tomasz R. Witek, Real Estate Agent | eXp Realty, Brokerage
+
+### Touch 24 — Day 16 — SMS — Q&A hook
+**Rung:** 2 — low-friction re-engagement toward the call. · **Purpose:** Invite the question — Tom as the source of answers before decisions.
+**Source:** Deck Touch 14 — carried verbatim from the 2026-10-10 deck.
+
+What's the #1 thing holding you back from a new build — price, deposit, or timing? Reply and I'll answer straight. 613-314-1199 — Tom
+
+### Touch 25 — Day 17 — EMAIL — Design Studio Upgrades Ottawa — What Is Worth It
+**Purpose:** Space + money: which upgrades serve the family's life, which are taste.
+**Subject:** Design studio: spend on the life, skip the theatre
+**Source:** NEW — asset touch.
+
+Hi [First Name],
+
+The design studio is where a good price quietly becomes an average one. Builders know it: the appointment feels like shopping, and every "small" upgrade is priced to feel painless. Some are worth every dollar — the structural choices you can never retrofit. Most are taste, and taste is cheaper bought later, from anyone.
+
+My guide sorts the studio into the upgrades that hold value, the ones that serve your family's daily life, and the ones that mostly serve the builder's margin: https://www.sellingottawa.realestate/blog/Design+Studio+Upgrades+Ottawa+What+Is+Worth+It
+
+Bedrooms that work, a kitchen that fits how you actually cook, light where your family lives — that's the spend. Bring me your upgrade list before your appointment and we'll cut it together.
+
+Call or text: 613-314-1199
+Tomasz R. Witek, Real Estate Agent | eXp Realty, Brokerage
+
+### Touch 26 — Day 18 — EMAIL — Builder spotlight: Caivan
+**Rung:** 3 — the Unadvertised Layer curiosity gap earns the meeting. · **Purpose:** How to read a builder: builder-choice value, worked on one real example.
+**Subject:** The builder with the clearest prices in Ottawa
+**Source:** Deck Touch 15 — carried verbatim from the 2026-10-10 deck.
+
+Hi [First Name],
+
+Of the 17 builders I researched, Caivan publishes the most transparent deal sheets in the market — lot-level hot lists showing current price vs. price after tax rebates, with occupancy dates.
+
+From their August 2026 sheets: Orleans Village stacked town, $348,490 → $331,264 after tax rebates, occupancy within 90 days. The Conservancy in Barrhaven: $333,119 → $316,653.
+
+Their deposit structure is also the lightest I found: 3% total on Summit Series (1%+1%+1%). Compare that to $80,000 in 90 days elsewhere.
+
+Here's what the PDF can't give you: the lot-release sheets, the standing inventory nobody lists online, and which floor plans get quietly discounted when a phase stalls. Builders tell registered agents things they don't put on their websites — I can't email you that part because it changes weekly and it's tied to specific lots. If everything were on the website, nobody would need a sales office. The good stuff happens in conversation.
+
+Want the current Caivan picture walked through with you? That's the options review — free, before you register anywhere.
+
+Call or text: 613-314-1199
+Tomasz R. Witek, Real Estate Agent | eXp Realty, Brokerage
+
+### Touch 27 — Day 19 — EMAIL — New Construction Closing Costs Ontario — Itemized
+**Purpose:** Money-protection: the closing lines to budget before the decision.
+**Subject:** New-build closing costs, itemized — no surprises
+**Source:** NEW — asset touch.
+
+Hi [First Name],
+
+The price on the sign is not the price at closing. On a new build, the gap is a list: development levies, utility hookups, Tarion enrolment, status and discharge fees, HST treatment — lines that rarely appear in the brochure and always appear on the statement of adjustments.
+
+My guide itemizes them, with the ranges I see on Ottawa closings, so you can budget the real number before you commit to the pretty one: https://www.sellingottawa.realestate/blog/New+Construction+Closing+Costs+Ontario+Itemized
+
+Money protection starts with knowing the full bill while there's still time to choose a different lot, builder, or structure. If a quote is in front of you now, send it — I'll flag the closing lines it doesn't show.
+
+Call or text: 613-314-1199
+Tomasz R. Witek, Real Estate Agent | eXp Realty, Brokerage
+
+### Touch 28 — Day 20 — SMS — Assignment Sales Ottawa — New Construction Rules
+**Purpose:** An option most buyers never hear explained — text Tom before touching one.
+**Source:** NEW — asset touch.
+
+Assignment sales: real option, real traps: https://www.sellingottawa.realestate/blog/Assignment+Sales+Ottawa+New+Construction+Rules 613-314-1199 — Tom
+
+### Touch 29 — Day 21 — SMS — This-week push
+**Rung:** 2→3 — urgency toward the call, then the meeting. · **Purpose:** A timely nudge back to the shortlist conversation.
+**Source:** Deck Touch 16 — carried verbatim from the 2026-10-10 deck.
+
+Still thinking it over? 15 minutes this week and I'll map your budget to current builder stock — free, no pitch. 613-314-1199 — Tom
+
+### Touch 30 — Day 22 — EMAIL — Quick Possession and Inventory Homes Ottawa
+**Purpose:** House-type/timing option: standing inventory for buyers who can't wait a build cycle.
+**Subject:** Can't wait two years? Standing inventory, explained
+**Source:** NEW — asset touch.
+
+Hi [First Name],
+
+Not every family can wait out a build cycle — a lease ending, a baby coming, a job moved. That's what quick-possession homes are: standing inventory, already built or nearly there, on a timeline measured in weeks.
+
+They're also the most negotiable shelf in new construction. A finished home costs the builder money every month it sits, and that pressure is your leverage — if you know how these homes get priced and where the quiet discounts live. My guide explains both: https://www.sellingottawa.realestate/blog/Quick+Possession+and+Inventory+Homes+Ottawa
+
+If your timeline is the problem, this is your product. Tell me your move-by date and I'll tell you honestly whether standing inventory beats a build for you.
+
+Call or text: 613-314-1199
+Tomasz R. Witek, Real Estate Agent | eXp Realty, Brokerage
+
+### Touch 31 — Day 23 — SMS — West Ottawa Builder Guide — Kanata and Stittsville New Homes
+**Purpose:** Location + builder choice: the west-end communities compared.
+**Source:** NEW — asset touch.
+
+West-end builders, compared: https://www.sellingottawa.realestate/blog/West+Ottawa+Builder+Guide+Kanata+and+Stittsville+New+Homes 613-314-1199 — Tom
+
+### Touch 32 — Day 24 — EMAIL — Area guide: west end
+**Rung:** 3→4 — area authority builds toward the shortlist. · **Purpose:** Location-decision value: reading the west end before choosing where.
+**Subject:** Kanata & Stittsville: where west-end value sits right now
+**Source:** Deck Touch 17 — carried verbatim from the 2026-10-10 deck.
+
+Hi [First Name],
+
+West-end snapshot from my October research (prices as seen — always confirm before acting):
+
+- Mattamy Mainhaven (Stittsville, launched Sept 2026): towns from $547,779, singles from $693,796 — prices shown AFTER the Ontario rebate.
+- Urbandale Aspire towns (Bradley Commons, Stittsville): from $561,947, ENERGY STAR certified — buyers may get 25% back on CMHC insurance.
+- Minto Arcadia (Kanata): $10,000 design centre bonus on 43' singles, standing offer.
+- Richcraft Kanata Lakes: lot-level was/now sheets with savings up to $45,000 on towns.
+
+The west end holds the deepest quick-possession inventory — which matters with the March 31, 2027 rebate deadline approaching.
+
+The advertised prices are the starting point. Which lots carry the real discounts, which phases are stalling, which plans resell best in seven years — that's the conversation we have in the options review, not something I can put in an email.
+
+Want me to match your budget to current west-end stock? Call or text: 613-314-1199
+Tomasz R. Witek, Real Estate Agent | eXp Realty, Brokerage
+
+### Touch 33 — Day 25 — EMAIL — Barrhaven Builder Guide — New Homes and Incentives
+**Purpose:** Location + builder choice: Barrhaven's builder shelf, compared.
+**Subject:** Barrhaven's builder shelf, compared
+**Source:** NEW — asset touch. SLOTS IN WHEN PUBLISHED.
+
+Hi [First Name],
+
+Barrhaven is Ottawa's deepest new-build shelf — a dozen communities, most of the big builders, and price bands that overlap enough to confuse anyone shopping alone. The right choice there isn't the nicest model home; it's the community that fits your commute, your schools, and the size of life you're building.
+
+My Barrhaven builder guide compares the communities side by side — builders, product types, price structure, and which pockets hold value: https://www.sellingottawa.realestate/blog/Barrhaven+Builder+Guide+New+Homes+and+Incentives
+
+Location is the first decision, and Barrhaven is really five decisions wearing one name. Tell me what your weekdays look like and I'll narrow the shelf to the two or three communities worth your Sundays.
+
+Call or text: 613-314-1199
+Tomasz R. Witek, Real Estate Agent | eXp Realty, Brokerage
+
+### Touch 34 — Day 26 — EMAIL — East Ottawa Builder Guide — Orleans, Russell and Embrun New Homes
+**Purpose:** Location + builder choice: the east-end communities compared.
+**Subject:** East end, compared: Orléans, Russell and Embrun
+**Source:** NEW — asset touch. SLOTS IN WHEN PUBLISHED.
+
+Hi [First Name],
+
+The east end is where Ottawa's new-build value hides: Orléans' established suburbs, Russell and Embrun's smaller-town pace, and price points that consistently undercut the west for comparable homes. The trade-off is the commute — which is why this decision starts with your mornings, not with floor plans.
+
+My east-end builder guide compares the communities — builders, product, price structure, and who each pocket suits: https://www.sellingottawa.realestate/blog/East+Ottawa+Builder+Guide+Orleans+Russell+and+Embrun+New+Homes
+
+Families who choose east with their eyes open rarely regret it; families who choose it on price alone sometimes do. Talk to me about how you live, and I'll tell you which side of that line you're on.
+
+Call or text: 613-314-1199
+Tomasz R. Witek, Real Estate Agent | eXp Realty, Brokerage
+
+### Touch 35 — Day 27 — SMS — Rebate clock nudge
+**Rung:** 3 — deadline pressure toward the meeting. · **Purpose:** Urgency, honestly framed — the rebate structure question.
+**Source:** Deck Touch 18 — carried verbatim from the 2026-10-10 deck.
+
+The $130K Ontario rebate ends Mar 31, 2027 — and quick-possession stock shrinks monthly. Want today's list walked through? 613-314-1199 — Tom
+
+### Touch 36 — Day 28 — EMAIL — Riverside South and Findlay Creek Builder Guide — New Homes
+**Purpose:** Location + builder choice: the south-end growth corridor compared.
+**Subject:** Riverside South & Findlay Creek: the corridor, compared
+**Source:** NEW — asset touch. SLOTS IN WHEN PUBLISHED.
+
+Hi [First Name],
+
+South of the airport, Riverside South and Findlay Creek are Ottawa's growth corridor — new phases releasing in sequence, the LRT at Limebank changing the commute math, and builders competing lot by lot. Buying early in a corridor can be the best value in the city, or a decade of construction dust — the difference is which phase, which builder, and what's planned around your street.
+
+My guide compares the corridor's communities and builders, and what to verify before buying into a growth plan: https://www.sellingottawa.realestate/blog/Riverside+South+and+Findlay+Creek+Builder+Guide+New+Homes
+
+This is a location decision with a long memory. Before you pick a phase, let's talk about what the corridor looks like when it's finished.
+
+Call or text: 613-314-1199
+Tomasz R. Witek, Real Estate Agent | eXp Realty, Brokerage
+
+### Touch 37 — Day 30 — EMAIL — Design bonuses decoded
+**Rung:** 3 — "which is which" authority earns the meeting. · **Purpose:** What the 'free' design bonuses are actually worth.
+**Subject:** $10,000–$25,000 design bonuses: who's actually offering them
+**Source:** Deck Touch 19 — carried verbatim from the 2026-10-10 deck.
+
+Hi [First Name],
+
+Design centre bonuses are the most common builder incentive right now. Translation: free upgrades instead of a price cut. Here's who's offering what (October 2026):
+
+- Minto: $10,000 on Arcadia (Kanata) and Riversbend singles; $20,000 on Mahogany Manotick dual-key homes
+- Cardel: "up to $25,000" across communities — verify per lot
+- Metric: $20,000 design bonus OR $10,000 cash — your choice. Cash is the honest version.
+- Richcraft: $10,000 design studio vouchers on select Westwood towns
+
+Rule of thumb: a $20,000 design credit costs the builder far less than $20,000. Cash discounts and price cuts are worth more than their face value suggests.
+
+I'll tell you which is which on any quote you send me — and which lots the bonuses are actually attached to, because "up to $25,000" with no lot detail is marketing until a sales centre names a lot. I verify before you visit.
+
+Call or text: 613-314-1199
+Tomasz R. Witek, Real Estate Agent | eXp Realty, Brokerage
+
+### Touch 38 — Day 33 — EMAIL — Pre-con vs resale + the resale lens
+**Rung:** 3 — the Resale Lens (future-self loss aversion) earns the meeting. · **Purpose:** The comparison touch: pre-construction weighed against resale.
+**Subject:** Pre-construction vs resale: an honest comparison
+**Source:** Deck Touch 20 — carried verbatim from the 2026-10-10 deck.
+
+Hi [First Name],
+
+The question I get most after the rebate math: "Should I just buy resale instead?" Honest answer — it depends on your timeline.
+
+Pre-construction wins when: you want the $130K Ontario rebate (resale doesn't qualify), you want staged deposits instead of a bidding war, and you value Tarion warranty on a brand-new home.
+
+Resale wins when: you need to move in 60–90 days, you want to see exactly what you're buying, and you want to negotiate on price today.
+
+But here's the question nobody in a sales office will ask you: you'll fall in love with a model home — that's the builder's job, the staging, the lighting, the smell. My job is to ask what it's worth when YOU sell it in seven years. The prettiest floor plan on the wrong lot is still on the wrong lot — backing onto the arterial, the hydro corridor, the future school site. The rep won't volunteer that. I will. I keep resale data on which plans actually appreciate, and that's a meeting conversation, not a PDF table.
+
+I'll run both scenarios on your situation, free. Call or text: 613-314-1199
+Tomasz R. Witek, Real Estate Agent | eXp Realty, Brokerage
+
