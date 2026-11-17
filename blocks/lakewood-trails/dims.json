@@ -1,42 +1,97 @@
 {
- "lakewood-trails-club.jpg": [
-  2048,
-  1542
- ],
- "lakewood-trails-portrait.jpg": [
-  1542,
-  2048
- ],
- "banner-lakewood-trails.jpg": [
-  1200,
-  630
- ],
- "gold-line.png": [
-  1200,
-  6
- ],
- "contact-button-lakewood-trails.png": [
-  1200,
-  168
- ],
- "lakewood-trails-pocket-map.png": [
-  1600,
-  1250
- ],
- "lakewood-trails-schools-map.png": [
-  1600,
-  1180
- ],
- "lakewood-trails-sunray-map.png": [
-  2900,
-  2100
- ],
- "lakewood-trails-social-1080x1080.png": [
-  1080,
-  1080
- ],
- "lakewood-trails-social-1080x1920.png": [
-  1080,
-  1920
- ]
+ "banner-lakewood-trails.jpg": {
+  "w": 1200,
+  "h": 630,
+  "bytes": 191138
+ },
+ "castor-valley-catchment-map.png": {
+  "w": 1240,
+  "h": 1160,
+  "bytes": 566855
+ },
+ "contact-button-lakewood-trails.png": {
+  "w": 1200,
+  "h": 168,
+  "bytes": 10170
+ },
+ "gold-line.png": {
+  "w": 1200,
+  "h": 6,
+  "bytes": 123
+ },
+ "greely-es-catchment-map.png": {
+  "w": 1240,
+  "h": 1160,
+  "bytes": 472781
+ },
+ "jonathan-pitre-catchment-map.png": {
+  "w": 1240,
+  "h": 1160,
+  "bytes": 538032
+ },
+ "lakewood-trails-club.jpg": {
+  "w": 2048,
+  "h": 1542,
+  "bytes": 1394235
+ },
+ "lakewood-trails-pocket-map.png": {
+  "w": 1600,
+  "h": 1250,
+  "bytes": 84503
+ },
+ "lakewood-trails-portrait.jpg": {
+  "w": 1542,
+  "h": 2048,
+  "bytes": 1555817
+ },
+ "lakewood-trails-social-1080x1080.png": {
+  "w": 1080,
+  "h": 1080,
+  "bytes": 887698
+ },
+ "lakewood-trails-social-1080x1920.png": {
+  "w": 1080,
+  "h": 1920,
+  "bytes": 1031186
+ },
+ "lakewood-trails-sunray-map.png": {
+  "w": 2900,
+  "h": 2100,
+  "bytes": 240444
+ },
+ "metcalfe-ps-catchment-map.png": {
+  "w": 1240,
+  "h": 1160,
+  "bytes": 416372
+ },
+ "michel-dupuis-catchment-map.png": {
+  "w": 1240,
+  "h": 1160,
+  "bytes": 518859
+ },
+ "osgoode-ths-catchment-map.png": {
+  "w": 1240,
+  "h": 1160,
+  "bytes": 436068
+ },
+ "pierre-de-blois-catchment-map.png": {
+  "w": 1240,
+  "h": 1160,
+  "bytes": 411295
+ },
+ "pierre-savard-catchment-map.png": {
+  "w": 1240,
+  "h": 1160,
+  "bytes": 448255
+ },
+ "st-mark-catchment-map.png": {
+  "w": 1240,
+  "h": 1160,
+  "bytes": 714661
+ },
+ "st-mary-catchment-map.png": {
+  "w": 1240,
+  "h": 1160,
+  "bytes": 660476
+ }
 }
